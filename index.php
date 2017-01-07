@@ -14,6 +14,7 @@
     limitations under the License.
 -->
 <?php $title = 'Il Palagetto'; include 'top.php'; ?>
+<!--TODO: update the indents for this page and cleanup code-->
 <!--Content begin-->
 <div id="index-banner" class="parallax-container"
  style="margin-top:1.2px" itemscope itemtype="http://schema.org/LocalBusiness">
