@@ -169,6 +169,7 @@
 
                        <!--Sections with icons-->
                        <div class="row">
+                           <!--TODO: check all the captions for the images -->
 <h4 class="center">Immagini:</h4>
 <div class="col s6 m3">
     <img class="materialboxed responsive-img z-depth-1 hoverable"
