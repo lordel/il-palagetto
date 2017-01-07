@@ -14,7 +14,7 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
-<html lang="it">
+<html lang=<?php echo $lang; ?>>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <!--Let browser know website is optimized for mobile-->
@@ -90,6 +90,7 @@
                 </a>
 
                 <!--for regular desktop & tablet------------------------------->
+                <!--TODO: add links to the right pages-->
                 <ul class="right hide-on-med-and-down">
                     <li>
                         <a href="#" class="waves-effect waves-light">
