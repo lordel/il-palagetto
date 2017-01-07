@@ -14,7 +14,6 @@
     limitations under the License.
 -->
 <?php
-    #TODO: add variables to customize copyright message and footer
     #Set the right variables to disabled state for language switching buttons
     #and some language specific footer values
     if ($lang = "it") {
