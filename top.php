@@ -79,7 +79,7 @@
         <nav class="amber accent-1" role="navigation">
             <div class="nav-wrapper container">
                 <!--Logo-->
-                <a id="logo-container" href="#" class="brand-logo">
+                <a id="logo-container" href="index.php" class="brand-logo">
                     <object id="front-page-logo" type="image/svg+xml"
                     data="img/logo.svg" itemscope
                     itemtype="http://schema.org/LocalBusiness" itemprop="logo">
@@ -87,7 +87,8 @@
                         support SVG
                     </object>
                 </a>
-                <!--for regular desktop & tablet-->
+                
+                <!--for regular desktop & tablet------------------------------->
                 <ul class="right hide-on-med-and-down">
                     <li>
                         <a href="#" class="waves-effect waves-light">
@@ -121,7 +122,7 @@
                     </li>
                 </ul>
 
-                <!--for mobile-->
+                <!--for mobile------------------------------------------------->
                 <ul id="nav-mobile" class="side-nav amber lighten-5">
                     <li>
                         <a href="#" class="waves-effect waves-yellow">
@@ -160,231 +161,3 @@
                 </a>
             </div>
         </nav>
-
-        <!--Content begin-->
-        <div id="index-banner" class="parallax-container"
-         style="margin-top:1.2px" itemscope itemtype="http://schema.org/LocalBusiness">
-        <br><br>
-        <div class="section no-pad-bot">
-            <div class="container">
-
-                <!--Header and text on top of the parallax image--> <h3 class="header
-    		center light r" itemprop="legalname">Azienda Agricola Il Palagetto</h3>
-                <div class="row center">
-                    <h5 class="header col s12 light"><b itemprop="name">Il Palagetto</b>
-                        <span itemprop="location">è situato a 3 km dal centro di
-    		  Firenze.</span></h5>
-                </div> <!--end of header and text on top of the parallax image-->
-
-                <!--Button-->
-                <div class="row center">
-                    <a href="#" id="download-button" class="btn-large waves-effect
-    		  waves-light amber accent-2">Prenota Ora!</a>
-                </div> <!--End of button--> <br><br>
-
-            </div>
-        </div>
-
-        <!--Parallax image-->
-        <div class="parallax"><img
-                src="img/index_parallax/facciata.jpg" alt="Facciata"></div>
-            </div>
-            <!--Content end-->
-
-            <div class="container">
-        <div class="section">
-
-            <!--Sections with icons-->
-            <div class="row">
-                <!--1st section-->
-                <div class="col s12 m4">
-                    <div class="icon-block">
-                        <h2 class="center black-text"><i
-                                class="mdi-image-filter-hdr"></i></h2> <h5 class="center">Il
-                        Palagetto</h5>
-                        <p class="light">L’azienda agricola <b>Il
-                            Palagetto</b> è situata a circa 3 km dal centro di Firenze,
-                            nella zona sud-ovest della città. Caratterizzata da amenissime
-                            colline e ridenti faggi, sparsi di grandiosi palazzi e ville
-                            signorili, in guisa che qui ben si può dire con l’Ariosto:
-                            <i>“Veder pien di tante ville i colli, par che terren ve le
-                                germogli.”</i> (E. Repetti, Dizionario corografico della
-                            Toscana, Milano 1855).
-                        </p>
-                    </div>
-                </div>
-
-                <!--2nd section-->
-                <div class="col s12 m4">
-                    <div class="icon-block">
-                        <h2 class="center black-text"><i class="mdi-maps-pin-drop"></i></h2>
-                        <h5 class="center">Location</h5>
-
-                        <p class="light">I locali sono ampi e luminosi, con vista sulla
-                            campagna circostante. La casa è, infatti,
-                            circondata dai campi, pur essendo situata in prossimità della
-                            città. <strong>Il centro storico è facilmente raggiungibile in
-                                circa 10 minuti con l’autobus</strong>. <strong>La fermata
-                                dell’autobus dista 200m da casa</strong>. Le auto possono essere
-                            comodamente parcheggiate davanti all’ingresso.
-                        </p>
-                    </div>
-                </div>
-
-                <!--Third section-->
-                <div class="col s12 m4">
-                    <div class="icon-block">
-                        <h2 class="center black-text"><i
-                                class="mdi-maps-local-florist"></i></h2> <h5 class="center">I
-                        Giardini</h5>
-
-                        <p class="light">Al momento, per motivi logistici, <strong>è
-                            possibile accedere al giardino o al
-                            podere solo con la supervisione della nostra
-                            responsabile</strong>. <br>Perciò, <strong>gli animali degli
-                            ospiti non sono ammessi</strong>. Speriamo, tuttavia, di poter
-                            accogliere i vostri amici a quattro zampe in futuro!
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        </div>
-        <!--End sections with icons-->
-
-        <div class="parallax-container valign-wrapper">
-        <div class="section no-pad-bot">
-            <div class="container">
-                <div class="row center">
-                    <h5 class="header col s12 light">Azienda a <b>conduzione
-                        familiare</b></h5>
-                </div>
-            </div>
-        </div>
-        <div class="parallax"><img src="img/index_parallax/facciata2.JPG"
-                                   alt="Facciata"></div>
-                               </div>
-
-                               <div class="container">
-        <div class="section">
-
-            <div class="row">
-                <div class="col s12 center">
-                    <h3><i class="mdi-action-announcement"></i></h3> <h4>Notizie</h4>
-                    <!--call google docs iframe to display the news-->
-                    <iframe
-                            class="z-depth-2" seamless scrolling="no" frameborder="0"
-                            style="width:100%; height:400px"
-                            src="https://docs.google.com/document/d/1PE8ayfS_B0QCzycJIhjaFhgMXw-p7Cz9q9hon0pzTFE/pub?embedded=true">
-                    </iframe> <!-- Modal Trigger --> <p><br><a target="_blank" class="
-    		  waves-effect waves-light amber accent-2 btn"
-                                                               href="#modal1">Più notizie</a></p>
-
-                    <!-- Modal Structure -->
-                    <div id="modal1" class="modal">
-                        <div class="modal-content"><h4>Notizie</h4> <!--call google
-    					docs iframe to display the news, this time with scrollable
-    					iframe-->
-                            <iframe class="z-depth-2" frameborder="0"
-                                    style="width:100%; height:200px;"
-                                    src="https://docs.google.com/document/d/1PE8ayfS_B0QCzycJIhjaFhgMXw-p7Cz9q9hon0pzTFE/pub?embedded=true">
-                            </iframe>
-                        </div>
-                    </div>
-                    <!--End modal structure-->
-                </div>
-            </div>
-
-        </div>
-        </div>
-
-
-        <div class="parallax-container valign-wrapper">
-        <div class="section no-pad-bot">
-            <div class="container">
-                <div class="row center">
-                    <h5 class="header col s12 light">Accesso <strong>al giardino e al
-                        podere</strong>.</h5>
-                </div>
-            </div>
-        </div>
-        <div class="parallax"><img src="img/index_parallax/giardino.JPG"
-                                   alt="Giardino"></div>
-                               </div>
-
-                               <!--Sections with icons-->
-                               <div class="row">
-        <h4 class="center">Immagini:</h4>
-        <div class="col s6 m3">
-            <img class="materialboxed responsive-img z-depth-1 hoverable"
-                 data-caption="Facciata" src="img/index_imgs/salotto.JPG">
-        </div>
-        <div class="col s6 m3">
-            <img class="materialboxed responsive-img z-depth-1 hoverable"
-                 data-caption="Facciata" src="img/index_imgs/antica.JPG">
-        </div>
-        <div class="col s6 m3">
-            <img class="materialboxed responsive-img z-depth-1 hoverable"
-                 data-caption="Facciata" src="img/index_imgs/appartamento.JPG">
-        </div>
-        <div class="col s6 m3">
-            <img class="materialboxed responsive-img z-depth-1 hoverable"
-                 data-caption="Facciata" src="img/index_imgs/bellosguardo.JPG">
-        </div>
-        <div class="col s6 m3">
-            <img class="materialboxed responsive-img z-depth-1 hoverable"
-                 data-caption="Facciata" src="img/index_imgs/bellosguardo2.JPG">
-        </div>
-        <div class="col s6 m3">
-            <img class="materialboxed responsive-img z-depth-1 hoverable"
-                 data-caption="Facciata" src="img/index_imgs/colazione.JPG">
-        </div>
-        <div class="col s6 m3">
-            <img class="materialboxed responsive-img z-depth-1 hoverable"
-                 data-caption="Facciata" src="img/index_imgs/marignolle.JPG">
-        </div>
-        <div class="col s6 m3">
-            <img class="materialboxed responsive-img z-depth-1 hoverable"
-                 data-caption="Facciata" src="img/index_imgs/poccetti.JPG">
-        </div>
-        </div>
-        <!--End sections with icons-->
-
-        <footer class="page-footer teal">
-        <div class="container">
-            <div class="row">
-                <div class="col l6 s12">
-                    <h5 class="white-text">Siti Gemelli:</h5>
-                    <p class="grey-text
-    		  text-lighten-4">
-                        <a href="http://libreriadelledonnefirenze.blogspot.it"
-                           style="text-decoration:none; color:#FFF">Libreria Delle Donne
-                            Firenze</a><br> <a href="http://www.theotherway.it"
-                                               style="text-decoration:none; color:#FFF">The Other Way</a><br> <a
-                            href="http://www.velavventura.com" style="text-decoration:none;
-    		   color:#FFF">Velavventura</a>
-                    </p>
-                </div>
-                <div class="col l3 s12">
-                    <p class="white-text" itemscope
-                       itemtype="http://schema.org/LocalBusiness"> Partita IVA: <span
-                            itemprop="taxID">06372050481</span></p>
-                </div>
-            </div>
-        </div>
-        <div class="footer-copyright">
-            <div class="container"> &copy; 2015 <a class="brown-text text-lighten-3"
-                                                   href="#!">Lorenzo Delcroix</a> &nbsp; &nbsp;Logo a cura di &copy; 2013 <a
-                    class="brown-text text-lighten-3" href="#!">Tanja Gastegger</a></div>
-        </div>
-        </footer>
-
-        <!--cookies banner: -->
-        <script id="cookiebanner"
-            src="http://cookiebanner.eu/js/cookiebanner.min.js"
-            close-text="Accetto" linkmsg="Più informazioni" data-message="Usiamo
-    		  cookies per migliorare la tua esperiaza nelle nostre pagine.">
-              </script>
-    </body>
-</html>
