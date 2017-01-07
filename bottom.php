@@ -13,6 +13,7 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
+<!--TODO: fix the indents and clean up code-->
 <footer class="page-footer teal">
 <div class="container">
     <div class="row">
@@ -36,9 +37,10 @@
     </div>
 </div>
 <div class="footer-copyright">
+    <!--TODO:Add responsive grid for copyright names-->
     <div class="container"> &copy; 2015 <a class="brown-text text-lighten-3"
                                            href="#!">Lorenzo Delcroix</a> &nbsp; &nbsp;Logo a cura di &copy; 2013 <a
-            class="brown-text text-lighten-3" href="#!">Tanja Gastegger</a></div>
+            class="brown-text text-lighten-3" href="#NoLinkPresent">Tanja Gastegger</a></div>
 </div>
 </footer>
 <!--cookies banner: -->

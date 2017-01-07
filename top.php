@@ -159,7 +159,7 @@
                 </ul>
                 <a href="#" data-activates="nav-mobile" class="button-collapse
     	            waves-effect waves-light">
-                    <i class="mdi-navigation-menu"></i>
+                    <i class="black-text material-icons">menu</i>
                 </a>
             </div>
         </nav>
