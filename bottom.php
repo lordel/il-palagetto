@@ -13,41 +13,107 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
-<!--TODO: fix the indents and clean up code-->
+<?php
+    #TODO: add variables to customize copyright message and footer
+    #Set the right variables to disabled state for language switching buttons
+    #and some language specific footer values
+    if ($lang = "it") {
+        $it_enable = "disabled";
+        $de_enable = "";
+        $en_enable = "";
+        $linked_sites = "Siti Gemelli:";
+        $iva = "Partita IVA:";
+    }elseif ($lang = "de") {
+        $it_enable = "";
+        $de_enable = "disabled";
+        $en_enable = "";
+        $linked_sites = "Befreundete Internetseiten:";
+        $iva = "Mehrwertsteuernummer:";
+    }else {
+        $it_enable = "";
+        $de_enable = "";
+        $en_enable = "disabled";
+        $linked_sites = "Sister Websites:";
+        $iva = "IVA Tax ID:";
+    }
+ ?>
+ <!--Language selection buttons------------------------------------------------>
+<div class="fixed-action-btn horizontal">
+    <a class="btn-floating btn-large amber">
+        <i class="material-icons">translate</i>
+    </a>
+    <ul>
+        <li>
+            <a class="btn-floating <?php echo $it_enable; ?>">
+                <img src="img/lang_icons/it_icon.png" alt="IT"
+                style="width: 40px;heigth:40px; left: -30px;">
+            </a>
+        </li>
+        <li>
+            <a class="btn-floating <?php echo $de_enable; ?>" href="de/index.php" hreflang="de">
+                <img src="img/lang_icons/de_icon.png" alt="DE"
+                style="width: 40px;heigth:40px; left: -30px;">
+            </a>
+        </li>
+        <li>
+            <a class="btn-floating <?php echo $en_enable; ?>" href="en/index.php" hreflang="en">
+                <img src="img/lang_icons/en_icon.png" alt="EN"
+                style="width: 40px;heigth:40px; left: -30px;">
+            </a>
+        </li>
+    </ul>
+</div>
+
+<!--Footer--------------------------------------------------------------------->
 <footer class="page-footer teal">
-<div class="container">
-    <div class="row">
-        <div class="col l6 s12">
-            <h5 class="white-text">Siti Gemelli:</h5>
-            <p class="grey-text
-      text-lighten-4">
-                <a href="http://libreriadelledonnefirenze.blogspot.it"
-                   style="text-decoration:none; color:#FFF">Libreria Delle Donne
-                    Firenze</a><br> <a href="http://www.theotherway.it"
-                                       style="text-decoration:none; color:#FFF">The Other Way</a><br> <a
-                    href="http://www.velavventura.com" style="text-decoration:none;
-       color:#FFF">Velavventura</a>
-            </p>
-        </div>
-        <div class="col l3 s12">
-            <p class="white-text" itemscope
-               itemtype="http://schema.org/LocalBusiness"> Partita IVA: <span
-                    itemprop="taxID">06372050481</span></p>
+    <div class="container">
+        <div class="row">
+            <div class="col s12 l6">
+                <h5 class="white-text"><?php echo $linked_sites; ?></h5>
+                <p class="grey-text text-lighten-4">
+                    <a href="http://libreriadelledonnefirenze.blogspot.it"
+                        style="text-decoration:none; color:#FFF">
+                        Libreria Delle Donne Firenze
+                    </a>
+                    <br>
+                    <a href="http://www.theotherway.it"
+                        style="text-decoration:none; color:#FFF">
+                        The Other Way
+                    </a>
+                    <br>
+                    <a href="http://www.velavventura.com"
+                    style="text-decoration:none; color:#FFF">
+                    Velavventura
+                    </a>
+                </p>
+            </div>
+            <div class="col s12 l3">
+                <p class="white-text" itemscope
+                    itemtype="http://schema.org/LocalBusiness">
+                    <?php echo $iva; ?>
+                    <span itemprop="taxID">06372050481</span>
+                </p>
+            </div>
         </div>
     </div>
-</div>
-<div class="footer-copyright">
-    <!--TODO:Add responsive grid for copyright names-->
-    <div class="container"> &copy; 2015 <a class="brown-text text-lighten-3"
-                                           href="#!">Lorenzo Delcroix</a> &nbsp; &nbsp;Logo a cura di &copy; 2013 <a
-            class="brown-text text-lighten-3" href="#NoLinkPresent">Tanja Gastegger</a></div>
-</div>
+    <div class="footer-copyright">
+        <div class="container">
+            &copy; 2017
+            <a class="brown-text text-lighten-3" href="#!">
+                Lorenzo Delcroix
+            </a>
+            , Logo &copy; 2013
+            <a class="brown-text text-lighten-3" href="#NoLinkPresent">
+                Tanja Gastegger
+            </a>
+        </div>
+    </div>
 </footer>
-<!--cookies banner: -->
-<script id="cookiebanner"
-        src="http://cookiebanner.eu/js/cookiebanner.min.js"
-        close-text="Accetto" linkmsg="Più informazioni" data-message="Usiamo
-		  cookies per migliorare la tua esperiaza nelle nostre pagine.">
+
+<!--Cookies banner------------------------------------------------------------->
+<script id="cookiebanner" src="http://cookiebanner.eu/js/cookiebanner.min.js"
+    close-text="Accetto" linkmsg="Più informazioni" data-message="Usiamo
+	cookies per migliorare la tua esperiaza nelle nostre pagine.">
 </script>
 </body>
 </html>
