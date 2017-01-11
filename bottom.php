@@ -41,7 +41,7 @@
     }
  ?>
  <!--Language selection buttons------------------------------------------------>
-<div class="fixed-action-btn horizontal">
+<div class="fixed-action-btn vertical">
     <a class="btn-floating btn-large amber">
         <i class="material-icons">translate</i>
     </a>
