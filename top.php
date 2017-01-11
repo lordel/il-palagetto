@@ -134,66 +134,67 @@
                 <ul class="right hide-on-med-and-down">
                     <li>
                         <a href="#" class="waves-effect waves-light">
-                            <?php echo $rooms ?>
+                            <?php echo $rooms; ?>
                         </a>
                     </li>
                     <li>
                         <a href="#" class="waves-effect waves-light">
-                            <?php echo $apartment ?>
+                            <?php echo $apartment; ?>
                         </a>
                     </li>
                     <li>
                         <a href="#" class="waves-effect waves-light">
-                            <?php echo  $prices ?>
+                            <?php echo  $prices; ?>
                         </a>
                     </li>
                     <li>
                         <a href="#" class="waves-effect waves-light">
-                            <?php echo $location ?>
+                            <?php echo $location; ?>
                         </a>
                     </li>
                     <li>
                         <a href="#" class="waves-effect waves-light">
-                            <?php echo $contacts ?>
+                            <?php echo $contacts; ?>
                         </a>
                     </li>
                     <li>
                         <a href="#" class="waves-effect waves-light">
-                            <?php echo $book ?>
+                            <?php echo $book; ?>
                         </a>
                     </li>
                 </ul>
 
                 <!--for mobile------------------------------------------------->
+                <!--TODO: Add links to right pages----------------------------->
                 <ul id="nav-mobile" class="side-nav amber lighten-5">
                     <li>
                         <a href="#" class="waves-effect waves-yellow">
-                            Camere
+                            <?php echo $rooms; ?>
                         </a>
                     </li>
                     <li>
                         <a href="#" class="waves-effect waves-yellow">
-                            Appartamento
+                            <?php echo $apartment; ?>
                         </a>
                     </li>
                     <li>
                         <a href="#" class="waves-effect waves-yellow">
-                            Listino
+                            <?php echo $prices; ?>
                         </a>
                     </li>
                     <li>
                         <a href="#" class="waves-effect waves-yellow">
-                            Mappa
+                            <?php echo $location; ?>
                         </a>
                     </li>
                     <li>
                         <a href="#" class="waves-effect waves-yellow">
-                            Contatti
+                            <?php echo $contacts; ?>
                         </a>
                     </li>
                     <li>
                         <a href="#" class="waves-effect waves-yellow">
-                            Prenota
+                            <?php echo $book; ?>
                         </a>
                     </li>
                 </ul>
