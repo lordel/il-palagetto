@@ -14,6 +14,51 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
+<?php
+    #TODO: finish changing the names based on language
+    switch ($lang) {
+        case 'it':
+            $keywords = "agriturismo, appartamenti, bed, breakfast, camere,
+                villa, fattoria";
+            $description = "";
+            $rooms = "Camere";
+            $apartment = "Appartamento";
+            $prices = "Listino";
+            $location = "Dove Siamo";
+            $contacts = "Contatti";
+            $book = "Prenota";
+            break;
+        case 'de':
+            #TODO: add german keywords
+            $keywords = "";
+            $description = "Il Palagetto ist ein vor kurzem restauriertes altes
+                Landhaus. Den Gästen stehen 3 Zimmer mit herrlicher Aussicht und
+                 ein geräumiges Appartement zur Verfügung. Wir produzieren Öl
+                von ausgezeichneter Qualtität.";
+            $rooms = "Zimmer";
+            $apartment = "Appartement";
+            $prices = "Preise";
+            $location = "Anreise";
+            $contacts = "Kontakt";
+            $book = "Buchen";
+            break;
+        default:
+            $keywords = "agritourism, apartment, bed, breakfast, rooms,
+            farmhouse, farm, garden";
+            $description = "Il Palagetto is an ancient countryside farmhouse
+                that was recently restored. It is only 3Km from Florence’s city
+                center. Our guests have the choice of staying in any of 3
+                bedrooms with amazing view or in our spacious apartment. We
+                produce and sell extra-virgin olive oil of great quality.";
+            $rooms = "Rooms";
+            $apartment = "Apartment";
+            $prices = "Prices";
+            $location = "Location";
+            $contacts = "Contact Us";
+            $book = "Book Now";
+            break;
+    }
+ ?>
 <html lang=<?php echo $lang; ?>>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
@@ -21,14 +66,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0,
             maximum-scale=1.0"/>
         <!--Metadata for the website------------------------------------------->
-        <meta name="keywords" content="agriturismo,
-            appartamenti, bed, breakfast, camere, villa">
+        <meta name="keywords" content=<?php echo $keywords ?>>
         <meta name="author"content="Lorenzo Delcroix">
-        <meta name="description" content="Il Palagetto è un'antica casa in
-            campagna da poco restaurata, ed a soli 3km dal centro di Firenze.
-            A disposizione degli ospiti ci sono 3 camere con vista spettacolare
-            ed uno spazioso appartamento. Produciamo e vendiamo olio extra
-            vergine di ottima qualità.">
+        <meta name="description" content=<?php echo $description ?>>
         <!--Variable allows for custom title in each page-->
         <title><?php echo $title; ?></title>
 
@@ -85,7 +125,7 @@
                     data="img/logo.svg" itemscope
                     itemtype="http://schema.org/LocalBusiness" itemprop="logo">
                         Logo cannot be displayed. Your browser does not
-                        support SVG
+                        support SVG!
                     </object>
                 </a>
 
@@ -94,32 +134,32 @@
                 <ul class="right hide-on-med-and-down">
                     <li>
                         <a href="#" class="waves-effect waves-light">
-                            Camere
+                            <?php echo $rooms ?>
                         </a>
                     </li>
                     <li>
                         <a href="#" class="waves-effect waves-light">
-                            Appartamento
+                            <?php echo $apartment ?>
                         </a>
                     </li>
                     <li>
                         <a href="#" class="waves-effect waves-light">
-                            Listino
+                            <?php echo  $prices ?>
                         </a>
                     </li>
                     <li>
                         <a href="#" class="waves-effect waves-light">
-                            Mappa
+                            <?php echo $location ?>
                         </a>
                     </li>
                     <li>
                         <a href="#" class="waves-effect waves-light">
-                            Contatti
+                            <?php echo $contacts ?>
                         </a>
                     </li>
                     <li>
                         <a href="#" class="waves-effect waves-light">
-                            Prenota
+                            <?php echo $book ?>
                         </a>
                     </li>
                 </ul>

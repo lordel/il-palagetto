@@ -16,24 +16,28 @@
 <?php
     #Set the right variables to disabled state for language switching buttons
     #and some language specific footer values
-    if ($lang = "it") {
-        $it_enable = "disabled";
-        $de_enable = "";
-        $en_enable = "";
-        $linked_sites = "Siti Gemelli:";
-        $iva = "Partita IVA:";
-    }elseif ($lang = "de") {
-        $it_enable = "";
-        $de_enable = "disabled";
-        $en_enable = "";
-        $linked_sites = "Befreundete Internetseiten:";
-        $iva = "Mehrwertsteuernummer:";
-    }else {
-        $it_enable = "";
-        $de_enable = "";
-        $en_enable = "disabled";
-        $linked_sites = "Sister Websites:";
-        $iva = "IVA Tax ID:";
+    switch ($lang) {
+        case "it":
+            $it_enable = "disabled";
+            $de_enable = "";
+            $en_enable = "";
+            $linked_sites = "Siti Gemelli:";
+            $iva = "Partita IVA:";
+            break;
+        case "de":
+            $it_enable = "";
+            $de_enable = "disabled";
+            $en_enable = "";
+            $linked_sites = "Befreundete Internetseiten:";
+            $iva = "Mehrwertsteuernummer:";
+            break;
+        default:
+            $it_enable = "";
+            $de_enable = "";
+            $en_enable = "disabled";
+            $linked_sites = "Sister Websites:";
+            $iva = "IVA Tax ID:";
+            break;
     }
  ?>
  <!--Language selection buttons------------------------------------------------>
