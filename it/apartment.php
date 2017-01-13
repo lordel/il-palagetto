@@ -13,96 +13,117 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
-<?php $title = 'test page'; $lang = 'it'; include 'top.php'; ?>
+<?php $title = 'Il Palagetto - Appartamento'; $lang = 'it'; include '../top.php'; ?>
 <div class="section no-pad-bot" id="index-banner">
-  <div class="container">
-    <br><br>
-    <h1 class="header center orange-text">Starter Template</h1>
-    <div class="row center">
-      <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+    <div class="container">
+        <br>
+        <br>
+        <h1 class="header center orange-text">Appartamento "Krisar"</h1>
     </div>
-    <div class="row center">
-      <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>
-    </div>
-    <br><br>
-
-  </div>
 </div>
-
 
 <div class="container">
-  <div class="section">
-
-    <!--   Icon Section   -->
-    <div class="row">
-      <div class="col s12 m4">
-        <div class="icon-block">
-          <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
-          <h5 class="center">Speeds up development</h5>
-
-          <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+    <div class="section">
+        <p class="light" style="text-align: justify;">
+            Il nostro unico appartamento di ca. 60mq è spazioso e luminoso.
+            L’appartamento porta il nome della proprietaria dell’azienda
+            agricola e di tutto il terreno su cui essa sorge.
+        </p>
+        <div class="row">
+            <!--TODO: add images -->
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                    data-caption="Facciata" src="/img/index_imgs/salotto.JPG">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Facciata" src="/img/index_imgs/antica.JPG">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Facciata" src="/img/index_imgs/appartamento.JPG">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Facciata" src="/img/index_imgs/bellosguardo.JPG">
+            </div>
         </div>
-      </div>
 
-      <div class="col s12 m4">
-        <div class="icon-block">
-          <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
-          <h5 class="center">User Experience Focused</h5>
-
-          <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+        <p class="light" style="text-align: justify;">
+            L’appartamento è dotato di una grande camera da letto con un
+            confortevole letto matrimoniale, uno spazioso soggiorno dotato di
+            divano-letto, un soggiorno più piccolo dotato di TV, cucina e bagno.
+        </p>
+        <div class="row">
+            <!--TODO: add images -->
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                    data-caption="Facciata" src="/img/index_imgs/salotto.JPG">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Facciata" src="/img/index_imgs/antica.JPG">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Facciata" src="/img/index_imgs/appartamento.JPG">
+            </div>
         </div>
-      </div>
-
-      <div class="col s12 m4">
-        <div class="icon-block">
-          <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
-          <h5 class="center">Easy to work with</h5>
-
-          <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+        <p class="light" style="text-align: justify;">
+            Dalla camera da letto e dal soggiorno più grande si ha una vista
+            spettacolare sul tipico paesaggio toscano. Dal soggiorno più piccolo
+             si ha accesso alla terrazza con vista sul nostro magnifico oliveto.
+        </p>
+        <div class="row">
+            <!--TODO: add images -->
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                    data-caption="Facciata" src="/img/index_imgs/salotto.JPG">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Facciata" src="/img/index_imgs/antica.JPG">
+            </div>
         </div>
-      </div>
+        <p class="light" style="text-align: justify;">
+            La cucina è dotata di tutto il necessario per cucinare.
+        </p>
+        <!--TODO: change images and caption-->
+        <div class="row">
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                    data-caption="Facciata" src="/img/index_imgs/salotto.JPG">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Facciata" src="/img/index_imgs/antica.JPG">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Facciata" src="/img/index_imgs/appartamento.JPG">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Facciata" src="/img/index_imgs/bellosguardo.JPG">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Facciata" src="/img/index_imgs/bellosguardo2.JPG">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Facciata" src="/img/index_imgs/colazione.JPG">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Facciata" src="/img/index_imgs/marignolle.JPG">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Facciata" src="/img/index_imgs/poccetti.JPG">
+            </div>
+        </div>
     </div>
+</div>
 
-  </div>
-  <br><br>
-
-  <div class="section">
-      <!--TODO: change images and caption-->
-      <div class="row">
-<h4 class="center">Immagini:</h4>
-<div class="col s6 m3">
-<img class="materialboxed responsive-img z-depth-1 hoverable"
-data-caption="Facciata" src="img/index_imgs/salotto.JPG">
-</div>
-<div class="col s6 m3">
-<img class="materialboxed responsive-img z-depth-1 hoverable"
-data-caption="Facciata" src="img/index_imgs/antica.JPG">
-</div>
-<div class="col s6 m3">
-<img class="materialboxed responsive-img z-depth-1 hoverable"
-data-caption="Facciata" src="img/index_imgs/appartamento.JPG">
-</div>
-<div class="col s6 m3">
-<img class="materialboxed responsive-img z-depth-1 hoverable"
-data-caption="Facciata" src="img/index_imgs/bellosguardo.JPG">
-</div>
-<div class="col s6 m3">
-<img class="materialboxed responsive-img z-depth-1 hoverable"
-data-caption="Facciata" src="img/index_imgs/bellosguardo2.JPG">
-</div>
-<div class="col s6 m3">
-<img class="materialboxed responsive-img z-depth-1 hoverable"
-data-caption="Facciata" src="img/index_imgs/colazione.JPG">
-</div>
-<div class="col s6 m3">
-<img class="materialboxed responsive-img z-depth-1 hoverable"
-data-caption="Facciata" src="img/index_imgs/marignolle.JPG">
-</div>
-<div class="col s6 m3">
-<img class="materialboxed responsive-img z-depth-1 hoverable"
-data-caption="Facciata" src="img/index_imgs/poccetti.JPG">
-</div>
-</div>
-  </div>
-</div>
-<?php include 'bottom.php'; ?>
+<?php include '../bottom.php'; ?>
