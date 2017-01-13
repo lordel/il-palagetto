@@ -16,8 +16,6 @@
 <?php $title = 'Il Palagetto - Appartamento'; $lang = 'it'; include '../top.php'; ?>
 <div class="section no-pad-bot" id="index-banner">
     <div class="container">
-        <br>
-        <br>
         <h1 class="header center orange-text">Appartamento "Krisar"</h1>
     </div>
 </div>
