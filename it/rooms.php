@@ -13,96 +13,170 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
-<?php $title = 'test page'; $lang = 'it'; include 'top.php'; ?>
+<?php $title = 'Il Palagetto - Camere'; $lang = 'it'; include '../top.php'; ?>
 <div class="section no-pad-bot" id="index-banner">
   <div class="container">
-    <br><br>
-    <h1 class="header center orange-text">Starter Template</h1>
+    <br>
+    <br>
+    <h1 class="header center orange-text">Le Nostre Camere</h1>
     <div class="row center">
-      <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+      <h5 class="header col s12 light">
+            Disponiamo di tre camere a disposizione degli ospiti.
+      </h5>
     </div>
-    <div class="row center">
-      <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>
-    </div>
-    <br><br>
-
   </div>
 </div>
-
 
 <div class="container">
   <div class="section">
-
-    <!--   Icon Section   -->
-    <div class="row">
-      <div class="col s12 m4">
-        <div class="icon-block">
-          <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
-          <h5 class="center">Speeds up development</h5>
-
-          <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+        <h5 class="center">Camera "Bellosgurdo"</h5>
+        <p class="light" style="text-align: justify;">
+          Questa camera matrimoniale (di ca. 25mq), con bagno privato
+          adiacente, è la nostra camera più grande. Il nome della camera è
+          ispirato alla meravigliosa vista che essa offre, da un lato, sul
+          tipico paesaggio toscano e, dall'altro lato, sulla nostra piccola
+          limonaia. La camera "Bellosguardo" è arredata con un confortevole
+          letto matrimoniale e un divano-letto.
+        </p>
+        <!--TODO: change images and caption-->
+        <div class="row">
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                    data-caption="Facciata" src="/img/index_imgs/salotto.JPG">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Facciata" src="/img/index_imgs/antica.JPG">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Facciata" src="/img/index_imgs/appartamento.JPG">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Facciata" src="/img/index_imgs/bellosguardo.JPG">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Facciata" src="/img/index_imgs/bellosguardo2.JPG">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Facciata" src="/img/index_imgs/colazione.JPG">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Facciata" src="/img/index_imgs/marignolle.JPG">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Facciata" src="/img/index_imgs/poccetti.JPG">
+            </div>
         </div>
-      </div>
+        <br>
 
-      <div class="col s12 m4">
-        <div class="icon-block">
-          <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
-          <h5 class="center">User Experience Focused</h5>
-
-          <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+        <h5 class="center">Camera "Marignolle"</h5>
+        <p class="light" style="text-align: justify;">
+          Questa camera prende il nome dalle colline di “Marignolle”, dove
+          Francesco de’ Medici, figlio del famoso Cosimo de’ Medici,
+          possedeva una villa, e sulle quali le ampie finestre offrono una
+          vista mozzafiato. Questa camera matrimoniale di ca. 18mq divide il
+          bagno con la
+          camera “Poccetti”; perciò, la consigliamo particolarmente a
+          famiglie con bambini, che possono prenotare entrambe le camere per
+           l'intera famiglia. Chiudendo la porta d’accesso si ottiene uno
+          spazio privato ed intimo, separato dal resto dell’agriturismo –
+          un appartamento, in sostanza, ma senza cucina. È possibile, inoltre,
+          richiedere un letto aggiuntivo.
+        </p>
+        <!--TODO: change images and caption-->
+        <div class="row">
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                    data-caption="Facciata" src="/img/index_imgs/salotto.JPG">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Facciata" src="/img/index_imgs/antica.JPG">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Facciata" src="/img/index_imgs/appartamento.JPG">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Facciata" src="/img/index_imgs/bellosguardo.JPG">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Facciata" src="/img/index_imgs/bellosguardo2.JPG">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Facciata" src="/img/index_imgs/colazione.JPG">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Facciata" src="/img/index_imgs/marignolle.JPG">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Facciata" src="/img/index_imgs/poccetti.JPG">
+            </div>
         </div>
-      </div>
+        <br>
 
-      <div class="col s12 m4">
-        <div class="icon-block">
-          <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
-          <h5 class="center">Easy to work with</h5>
-
-          <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+        <h5 class="center">Camera "Poccetti"</h5>
+        <p class="light" style="text-align: justify;">
+         Questa camera matrimoniale di ca. 12mq divide il bagno con la
+          camera “Marignolle”; perciò, la consigliamo particolarmente a
+          famiglie con bambini, che possono prenotare entrambe le camere per
+           l'intera famiglia. Chiudendo la porta d’accesso si ottiene uno
+          spazio intimo, separato dal resto dell’agriturismo. Arredata con un
+          letto francese (largo letto singolo, 150 cm di larghezza) permette il
+          pernottamento di due persone. La camera porta lo stesso nome della via
+           in cui la nostra azienda agricola sorge: "Via Bernardino Poccetti".
+           Bernardino Poccetti era un poco conosciuto pittore del ‘500, il quale
+            era soprattutto specializzato nella pittura di facciate. Alcune
+        delle sue opere più famose possono essere trovate nella galleria
+        degli Ufizi.
+        </p>
+        <!--TODO: change images and caption-->
+        <div class="row">
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                    data-caption="Facciata" src="/img/index_imgs/salotto.JPG">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Facciata" src="/img/index_imgs/antica.JPG">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Facciata" src="/img/index_imgs/appartamento.JPG">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Facciata" src="/img/index_imgs/bellosguardo.JPG">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Facciata" src="/img/index_imgs/bellosguardo2.JPG">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Facciata" src="/img/index_imgs/colazione.JPG">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Facciata" src="/img/index_imgs/marignolle.JPG">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Facciata" src="/img/index_imgs/poccetti.JPG">
+            </div>
         </div>
-      </div>
     </div>
+</div>
 
-  </div>
-  <br><br>
-
-  <div class="section">
-      <!--TODO: change images and caption-->
-      <div class="row">
-<h4 class="center">Immagini:</h4>
-<div class="col s6 m3">
-<img class="materialboxed responsive-img z-depth-1 hoverable"
-data-caption="Facciata" src="img/index_imgs/salotto.JPG">
-</div>
-<div class="col s6 m3">
-<img class="materialboxed responsive-img z-depth-1 hoverable"
-data-caption="Facciata" src="img/index_imgs/antica.JPG">
-</div>
-<div class="col s6 m3">
-<img class="materialboxed responsive-img z-depth-1 hoverable"
-data-caption="Facciata" src="img/index_imgs/appartamento.JPG">
-</div>
-<div class="col s6 m3">
-<img class="materialboxed responsive-img z-depth-1 hoverable"
-data-caption="Facciata" src="img/index_imgs/bellosguardo.JPG">
-</div>
-<div class="col s6 m3">
-<img class="materialboxed responsive-img z-depth-1 hoverable"
-data-caption="Facciata" src="img/index_imgs/bellosguardo2.JPG">
-</div>
-<div class="col s6 m3">
-<img class="materialboxed responsive-img z-depth-1 hoverable"
-data-caption="Facciata" src="img/index_imgs/colazione.JPG">
-</div>
-<div class="col s6 m3">
-<img class="materialboxed responsive-img z-depth-1 hoverable"
-data-caption="Facciata" src="img/index_imgs/marignolle.JPG">
-</div>
-<div class="col s6 m3">
-<img class="materialboxed responsive-img z-depth-1 hoverable"
-data-caption="Facciata" src="img/index_imgs/poccetti.JPG">
-</div>
-</div>
-  </div>
-</div>
-<?php include 'bottom.php'; ?>
+<?php include '../bottom.php'; ?>

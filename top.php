@@ -30,7 +30,8 @@
             $location = "Dove Siamo";
             $contacts = "Contatti";
             $book = "Prenota";
-            $folder = "it/";
+            $folder = "/it/";
+            $index_folder = "/";
             break;
         case 'de':
             $keywords = "agritourismus, wohnung, appartement, bed, breakfast,
@@ -45,7 +46,8 @@
             $location = "Anreise";
             $contacts = "Kontakt";
             $book = "Buchen";
-            $folder = "de/";
+            $folder = "/de/";
+            $index_folder = "/de/";
             break;
         default:
             $keywords = "agritourism, apartment, bed, breakfast, rooms,
@@ -61,7 +63,8 @@
             $location = "Location";
             $contacts = "Contact Us";
             $book = "Book Now";
-            $folder = "en/";
+            $folder = "/en/";
+            $index_folder = "/en/";
             break;
     }
  ?>
@@ -72,9 +75,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0,
             maximum-scale=1.0"/>
         <!--Metadata for the website------------------------------------------->
-        <meta name="keywords" content=<?php echo $keywords ?>>
+        <meta name="keywords" content=<?php echo $keywords; ?>>
         <meta name="author"content="Lorenzo Delcroix">
-        <meta name="description" content=<?php echo $description ?>>
+        <meta name="description" content=<?php echo $description; ?>>
         <!--Variable allows for custom title in each page-->
         <title><?php echo $title; ?></title>
 
@@ -83,22 +86,22 @@
         <link href="http://fonts.googleapis.com/icon?family=Material+Icons"
             rel="stylesheet">
         <!--Import materialize.css-->
-        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"
+        <link type="text/css" rel="stylesheet" href="/css/materialize.min.css"
             media="screen,projection"/>
         <!--Link to stylesheet-->
-        <link href="css/style.css" type="text/css" rel="stylesheet"
+        <link href="/css/style.css" type="text/css" rel="stylesheet"
             media="screen,projection">
 
         <!--Favicons----------------------------------------------------------->
         <!--Apple iphone icon-->
         <link rel="apple-touch-icon"
-            href="img/favicon/apple-touch-icon-300x300.png">
+            href="/img/favicon/apple-touch-icon-300x300.png">
         <!--Microsoft tile color and icon-->
         <meta name="msapplication-TileColor" content="#ffe57f">
         <meta name="msapplication-TileImage"
-            content="img/favicon/mstile-144x144.png">
+            content="/img/favicon/mstile-144x144.png">
         <!--Browser favicon-->
-        <link rel="icon" href="img/favicon.ico" sizes="32x32">
+        <link rel="icon" href="/img/favicon.ico" sizes="32x32">
         <!-- Android 5.0+ Chrome Color-->
         <meta name="theme-color" content="#ffe57f">
     </head>
@@ -109,8 +112,8 @@
         <script type="text/javascript"
             src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <!--Import the required javascript files for materialize to work-->
-        <script type="text/javascript" src="js/materialize.min.js"></script>
-        <script src="js/init.js"></script>
+        <script type="text/javascript" src="/js/materialize.min.js"></script>
+        <script src="/js/init.js"></script>
 
         <!--Script for modal popup (used for news section), usign jQuery-->
         <script>
@@ -126,9 +129,10 @@
         <nav class="amber accent-1" role="navigation">
             <div class="nav-wrapper container">
                 <!--Logo-->
-                <a id="logo-container" href="index.php" class="brand-logo">
+                <a href="<?php echo $index_folder; ?>index.php"
+                    id="logo-container" class="brand-logo">
                     <object id="front-page-logo" type="image/svg+xml"
-                    data="img/logo.svg" itemscope
+                    data="/img/logo.svg" itemscope
                     itemtype="http://schema.org/LocalBusiness" itemprop="logo">
                         Logo cannot be displayed. Your browser does not
                         support SVG!
@@ -136,7 +140,6 @@
                 </a>
 
                 <!--for regular desktop & tablet------------------------------->
-                <!--TODO: add links to the right pages-->
                 <ul class="right hide-on-med-and-down">
                     <li>
                         <a href="<?php echo $folder; ?>rooms.php"
