@@ -28,64 +28,12 @@
             Il nostro unico appartamento di ca. 60mq è spazioso e luminoso.
             L’appartamento porta il nome della proprietaria dell’azienda
             agricola e di tutto il terreno su cui essa sorge.
-        </p>
-        <div class="row">
-            <!--TODO: add images -->
-            <div class="col s6 m3">
-                <img class="materialboxed responsive-img z-depth-1 hoverable"
-                    data-caption="Facciata" src="/img/index_imgs/salotto.JPG">
-            </div>
-            <div class="col s6 m3">
-                <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Facciata" src="/img/index_imgs/antica.JPG">
-            </div>
-            <div class="col s6 m3">
-                <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Facciata" src="/img/index_imgs/appartamento.JPG">
-            </div>
-            <div class="col s6 m3">
-                <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Facciata" src="/img/index_imgs/bellosguardo.JPG">
-            </div>
-        </div>
-
-        <p class="light" style="text-align: justify;">
             L’appartamento è dotato di una grande camera da letto con un
             confortevole letto matrimoniale, uno spazioso soggiorno dotato di
             divano-letto, un soggiorno più piccolo dotato di TV, cucina e bagno.
-        </p>
-        <div class="row">
-            <!--TODO: add images -->
-            <div class="col s6 m3">
-                <img class="materialboxed responsive-img z-depth-1 hoverable"
-                    data-caption="Facciata" src="/img/index_imgs/salotto.JPG">
-            </div>
-            <div class="col s6 m3">
-                <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Facciata" src="/img/index_imgs/antica.JPG">
-            </div>
-            <div class="col s6 m3">
-                <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Facciata" src="/img/index_imgs/appartamento.JPG">
-            </div>
-        </div>
-        <p class="light" style="text-align: justify;">
             Dalla camera da letto e dal soggiorno più grande si ha una vista
             spettacolare sul tipico paesaggio toscano. Dal soggiorno più piccolo
              si ha accesso alla terrazza con vista sul nostro magnifico oliveto.
-        </p>
-        <div class="row">
-            <!--TODO: add images -->
-            <div class="col s6 m3">
-                <img class="materialboxed responsive-img z-depth-1 hoverable"
-                    data-caption="Facciata" src="/img/index_imgs/salotto.JPG">
-            </div>
-            <div class="col s6 m3">
-                <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Facciata" src="/img/index_imgs/antica.JPG">
-            </div>
-        </div>
-        <p class="light" style="text-align: justify;">
             La cucina è dotata di tutto il necessario per cucinare.
         </p>
         <!--TODO: change images and caption-->
