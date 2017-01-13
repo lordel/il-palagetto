@@ -15,22 +15,26 @@
     limitations under the License.
 -->
 <?php
-    #TODO: finish changing the names based on language
     switch ($lang) {
         case 'it':
             $keywords = "agriturismo, appartamenti, bed, breakfast, camere,
                 villa, fattoria";
-            $description = "";
+            $description = "Il Palagetto è un'antica casa in campagna da poco
+                restaurata, ed  a soli 3km dal centro di Firenze. A disposizione
+                 degli ospiti ci sono 3 camere con vista spettacolare ed uno
+                spazioso appartamento. Produciamo e vendiamo olio extra vergine
+                di ottima qualità.";
             $rooms = "Camere";
             $apartment = "Appartamento";
             $prices = "Listino";
             $location = "Dove Siamo";
             $contacts = "Contatti";
             $book = "Prenota";
+            $folder = "it/";
             break;
         case 'de':
-            #TODO: add german keywords
-            $keywords = "";
+            $keywords = "agritourismus, wohnung, appartement, bed, breakfast,
+                zimmer, bauernhaus, bauernhof, garten";
             $description = "Il Palagetto ist ein vor kurzem restauriertes altes
                 Landhaus. Den Gästen stehen 3 Zimmer mit herrlicher Aussicht und
                  ein geräumiges Appartement zur Verfügung. Wir produzieren Öl
@@ -41,10 +45,11 @@
             $location = "Anreise";
             $contacts = "Kontakt";
             $book = "Buchen";
+            $folder = "de/";
             break;
         default:
             $keywords = "agritourism, apartment, bed, breakfast, rooms,
-            farmhouse, farm, garden";
+                farmhouse, farm, garden";
             $description = "Il Palagetto is an ancient countryside farmhouse
                 that was recently restored. It is only 3Km from Florence’s city
                 center. Our guests have the choice of staying in any of 3
@@ -56,6 +61,7 @@
             $location = "Location";
             $contacts = "Contact Us";
             $book = "Book Now";
+            $folder = "en/";
             break;
     }
  ?>
@@ -133,67 +139,78 @@
                 <!--TODO: add links to the right pages-->
                 <ul class="right hide-on-med-and-down">
                     <li>
-                        <a href="#" class="waves-effect waves-light">
+                        <a href="<?php echo $folder; ?>rooms.php"
+                            class="waves-effect waves-light">
                             <?php echo $rooms; ?>
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="waves-effect waves-light">
+                        <a href="<?php echo $folder; ?>apartment.php"
+                            class="waves-effect waves-light">
                             <?php echo $apartment; ?>
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="waves-effect waves-light">
+                        <a href="<?php echo $folder; ?>prices.php"
+                            class="waves-effect waves-light">
                             <?php echo  $prices; ?>
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="waves-effect waves-light">
+                        <a href="<?php echo $folder; ?>location.php"
+                            class="waves-effect waves-light">
                             <?php echo $location; ?>
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="waves-effect waves-light">
+                        <a href="<?php echo $folder; ?>contacts.php"
+                            class="waves-effect waves-light">
                             <?php echo $contacts; ?>
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="waves-effect waves-light">
+                        <a href="<?php echo $folder; ?>book.php"
+                            class="waves-effect waves-light">
                             <?php echo $book; ?>
                         </a>
                     </li>
                 </ul>
 
                 <!--for mobile------------------------------------------------->
-                <!--TODO: Add links to right pages----------------------------->
                 <ul id="nav-mobile" class="side-nav amber lighten-5">
                     <li>
-                        <a href="#" class="waves-effect waves-yellow">
+                        <a href="<?php echo $folder; ?>rooms.php"
+                            class="waves-effect waves-yellow">
                             <?php echo $rooms; ?>
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="waves-effect waves-yellow">
+                        <a href="<?php echo $folder; ?>apartment.php"
+                            class="waves-effect waves-yellow">
                             <?php echo $apartment; ?>
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="waves-effect waves-yellow">
+                        <a href="<?php echo $folder; ?>prices.php"
+                            class="waves-effect waves-yellow">
                             <?php echo $prices; ?>
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="waves-effect waves-yellow">
+                        <a href="<?php echo $folder; ?>location.php"
+                            class="waves-effect waves-yellow">
                             <?php echo $location; ?>
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="waves-effect waves-yellow">
+                        <a href="<?php echo $folder; ?>contacts.php"
+                            class="waves-effect waves-yellow">
                             <?php echo $contacts; ?>
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="waves-effect waves-yellow">
+                        <a href="<?php echo $folder; ?>book.php"
+                            class="waves-effect waves-yellow">
                             <?php echo $book; ?>
                         </a>
                     </li>
