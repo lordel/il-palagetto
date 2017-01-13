@@ -16,8 +16,6 @@
 <?php $title = 'Il Palagetto - Camere'; $lang = 'it'; include '../top.php'; ?>
 <div class="section no-pad-bot" id="index-banner">
   <div class="container">
-    <br>
-    <br>
     <h1 class="header center orange-text">Le Nostre Camere</h1>
     <div class="row center">
       <h5 class="header col s12 light">
