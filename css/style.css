@@ -25,10 +25,11 @@ p {
   height: auto;
   color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
+
+.parallax-container .section {
     width: 100%;
-  }
-	
+}
+
 #front-page-logo {
 		max-width: 300px;
 	}
@@ -51,7 +52,7 @@ p {
   #index-banner .section {
     top: 0;
   }
-	
+
 	#front-page-logo {
 		max-width: 150px;
 	}
@@ -64,4 +65,19 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+/*Edited by Lorenzo Delcroix, 2017:*/
+.google-maps {
+        position: relative;
+        padding-bottom: 75%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+.google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
 }

@@ -13,25 +13,19 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
-<?php $title = 'test page'; $lang = 'it'; include 'top.php'; ?>
+<?php $title = 'Il Palagetto - Dove Siamo'; $lang = 'it'; include '../top.php'; ?>
 <div class="section no-pad-bot" id="index-banner">
   <div class="container">
-    <br><br>
-    <h1 class="header center orange-text">Starter Template</h1>
-    <div class="row center">
-      <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-    </div>
-    <div class="row center">
-      <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>
-    </div>
-    <br><br>
-
+    <h1 class="header center orange-text">Dove Siamo</h1>
   </div>
 </div>
 
 
 <div class="container">
-  <div class="section">
+    <div class="section google-maps">
+        <!--iframe with map-->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d23050.937813363576!2d11.240200292379603!3d43.765235364792254!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1babcbdd477048e4!2sIl+Palagetto!5e0!3m2!1sen!2sus!4v1407914545604" frameborder="0" style="border:0"></iframe>
+    </div>
 
     <!--   Icon Section   -->
     <div class="row">
@@ -105,4 +99,4 @@ data-caption="Facciata" src="img/index_imgs/poccetti.JPG">
 </div>
   </div>
 </div>
-<?php include 'bottom.php'; ?>
+<?php include '../bottom.php'; ?>
