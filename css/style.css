@@ -70,7 +70,7 @@ footer.page-footer {
 /*Edited by Lorenzo Delcroix, 2017:*/
 .google-maps {
         position: relative;
-        padding-bottom: 75%; // This is the aspect ratio
+        padding-bottom: 60%; // This is the aspect ratio
         height: 0;
         overflow: hidden;
     }
