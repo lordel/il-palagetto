@@ -13,7 +13,7 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
-<?php $title = 'test page'; $lang = 'it'; include 'top.php'; ?>
+<?php $title = 'Il Palagetto - Contatti'; $lang = 'it'; include '../top.php'; ?>
 <div class="section no-pad-bot" id="index-banner">
   <div class="container">
     <br><br>
@@ -105,4 +105,4 @@ data-caption="Facciata" src="img/index_imgs/poccetti.JPG">
 </div>
   </div>
 </div>
-<?php include 'bottom.php'; ?>
+<?php include '../bottom.php'; ?>
