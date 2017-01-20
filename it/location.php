@@ -32,7 +32,10 @@
     <div class="row">
       <div class="col s12 m4">
         <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">airplane</i></h2>
+            <h2 class="center black-text">
+                <i class="medium material-icons">
+                flight_land
+            </i></h2>
             <h5 class="center">Dall’aeroporto Amerigo Vespuci (Peretola)</h5>
             <p class="light">È possibile prendere l’apposita navetta
                 <a href="http://www.ataf.net/System/files/FOLDER%20VOLA%20IN%20BUS%202.pdf"
@@ -69,7 +72,9 @@
 
       <div class="col s12 m4">
         <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">airplane</i></h2>
+            <h2 class="center black-text"><i class="medium material-icons">
+                flight_takeoff
+            </i></h2>
             <h5 class="center">Dall'aeroporto di Pisa</h5>
             <p class="light">
                 È possibile prendere
@@ -107,7 +112,9 @@
 
       <div class="col s12 m4">
         <div class="icon-block">
-          <h2 class="center light-blue-text"><i class="material-icons">car</i></h2>
+          <h2 class="center black-text"><i class="medium material-icons">
+              directions_car
+          </i></h2>
           <h5 class="center">In macchina</h5>
           <p class="light">
               Dalla <strong>superstrada FI-PI-LI</strong>, prendere l’uscita per
