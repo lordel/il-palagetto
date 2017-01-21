@@ -88,9 +88,10 @@
         <!--Import materialize.css-->
         <link type="text/css" rel="stylesheet" href="/css/materialize.min.css"
             media="screen,projection"/>
-        <!--Link to stylesheet-->
+        <!--Link to stylesheets-->
         <link href="/css/style.css" type="text/css" rel="stylesheet"
             media="screen,projection">
+        <link rel='stylesheet' href='../css/fullcalendar.css' type="text/css">
 
         <!--Favicons----------------------------------------------------------->
         <!--Apple iphone icon-->

@@ -13,96 +13,82 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
-<?php $title = 'test page'; $lang = 'it'; include 'top.php'; ?>
-<div class="section no-pad-bot" id="index-banner">
-  <div class="container">
-    <br><br>
-    <h1 class="header center orange-text">Starter Template</h1>
-    <div class="row center">
-      <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-    </div>
-    <div class="row center">
-      <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>
-    </div>
-    <br><br>
+<?php $title = 'Il Palagetto - Prenota'; $lang = 'it'; include '../top.php'; ?>
+<script src='/js/fullcalendar/moment.min.js'></script>
+<script src='/js/fullcalendar/fullcalendar.js'></script>
+<script type='text/javascript' src='/js/fullcalendar/gcal.js'></script>
+<script src='/js/fullcalendar/lang-all.js'></script>
+<script>
+	$(document).ready(function() {
 
-  </div>
+		$('#calendar').fullCalendar({
+			aspectRatio: .9,
+			lang: 'it',
+			handleWindowResize: true,
+			header: {
+				left: ' prev,  today',
+				center: 'title',
+				right: 'next '
+			},
+			googleCalendarApiKey: 'AIzaSyDBnlIKHgqtx8EqjhIRhuEIqk4bvF0P-7A',
+			eventSources: [
+ 				// Appartamento Krisar
+				{
+                googleCalendarId: '5ofhp2fjue9m6uafaiedvauhak@group.calendar.google.com',
+				backgroundColor: '#ad2d2d',
+				borderColor: '#ad2d2d',
+				textColor: '#FFFFFF'
+            },
+
+           		// Bellosguardo
+				{
+                googleCalendarId: 's7em8etmcldtmnob4usi3r4g1c@group.calendar.google.com',
+				backgroundColor: '#e0c240',
+				borderColor: '#e0c240',
+				textColor: '#FFFFFF'
+            },
+            	// Marignolle
+				{
+                googleCalendarId: '5ppdpmmcj2u52sucu34ubeelv0@group.calendar.google.com',
+				backgroundColor: '#536ca6',
+				borderColor: '#536ca6',
+				textColor: '#FFFFFF'
+            },
+
+			// Poccetti
+				{
+                googleCalendarId: '9f9t4e3pr9omub7brh8vbvakm8@group.calendar.google.com',
+				backgroundColor: '#7ec225',
+				borderColor: '#7ec225',
+				textColor: '#FFFFFF'
+            }
+        ],
+			eventClick: function(event) {
+				// opens events in a popup window
+				window.open(event.url, 'gcalevent', 'width=700,height=600');
+				return false;
+			},
+
+			loading: function(bool) {
+				$('#loading').toggle(bool);
+			}
+
+		});
+
+	});
+
+</script>
+<div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+        <h1 class="header center orange-text">Prenota Subito!</h1>
+        <div id='calendar'></div>
+    </div>
 </div>
 
 
 <div class="container">
-  <div class="section">
-
-    <!--   Icon Section   -->
-    <div class="row">
-      <div class="col s12 m4">
-        <div class="icon-block">
-          <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
-          <h5 class="center">Speeds up development</h5>
-
-          <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
-        </div>
-      </div>
-
-      <div class="col s12 m4">
-        <div class="icon-block">
-          <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
-          <h5 class="center">User Experience Focused</h5>
-
-          <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
-        </div>
-      </div>
-
-      <div class="col s12 m4">
-        <div class="icon-block">
-          <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
-          <h5 class="center">Easy to work with</h5>
-
-          <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
-        </div>
-      </div>
+    <div class="section black-text center">
+        <i class="material-icons medium">shopping_cart</i>
     </div>
-
-  </div>
-  <br><br>
-
-  <div class="section">
-      <!--TODO: change images and caption-->
-      <div class="row">
-<h4 class="center">Immagini:</h4>
-<div class="col s6 m3">
-<img class="materialboxed responsive-img z-depth-1 hoverable"
-data-caption="Facciata" src="img/index_imgs/salotto.JPG">
 </div>
-<div class="col s6 m3">
-<img class="materialboxed responsive-img z-depth-1 hoverable"
-data-caption="Facciata" src="img/index_imgs/antica.JPG">
-</div>
-<div class="col s6 m3">
-<img class="materialboxed responsive-img z-depth-1 hoverable"
-data-caption="Facciata" src="img/index_imgs/appartamento.JPG">
-</div>
-<div class="col s6 m3">
-<img class="materialboxed responsive-img z-depth-1 hoverable"
-data-caption="Facciata" src="img/index_imgs/bellosguardo.JPG">
-</div>
-<div class="col s6 m3">
-<img class="materialboxed responsive-img z-depth-1 hoverable"
-data-caption="Facciata" src="img/index_imgs/bellosguardo2.JPG">
-</div>
-<div class="col s6 m3">
-<img class="materialboxed responsive-img z-depth-1 hoverable"
-data-caption="Facciata" src="img/index_imgs/colazione.JPG">
-</div>
-<div class="col s6 m3">
-<img class="materialboxed responsive-img z-depth-1 hoverable"
-data-caption="Facciata" src="img/index_imgs/marignolle.JPG">
-</div>
-<div class="col s6 m3">
-<img class="materialboxed responsive-img z-depth-1 hoverable"
-data-caption="Facciata" src="img/index_imgs/poccetti.JPG">
-</div>
-</div>
-  </div>
-</div>
-<?php include 'bottom.php'; ?>
+<?php include '../bottom.php'; ?>
