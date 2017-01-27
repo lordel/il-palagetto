@@ -81,7 +81,7 @@
 <div class="section no-pad-bot" id="index-banner">
     <div class="container">
         <h1 class="header center orange-text">Prenota Subito!</h1>
-        <div id='calendar'></div>
+        <div id='calendar' class="z-depth-3 card"></div>
     </div>
 </div>
 
