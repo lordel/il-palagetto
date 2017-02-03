@@ -78,17 +78,64 @@
 	});
 
 </script>
-<div class="section no-pad-bot" id="index-banner">
-    <div class="container">
-        <h1 class="header center orange-text">Prenota Subito!</h1>
-        <div id='calendar' class="z-depth-3 card"></div>
+
+<div class="container">
+	<h1 class="header center orange-text">Prenota Subito!</h1>
+    <div class="section black-text center">
+        <i class="material-icons medium">shopping_cart</i>
+		<p>
+			Il calendario illustra i giorni <b>non</b> disponibili per le
+			prenotazioni con i seguenti colori:
+		</p>
+        <div class="center" style="background-color: #536ca6; width: 100%;
+			height: auto; color: #FFF; margin-bottom: 5px">
+			Camera "Marignolle"
+		</div>
+        <div class="center" style="background-color: #e0c240; width: 100%;
+			height: auto; color: #FFF; margin-bottom: 5px">
+			Camera "Bellosguardo"
+		</div>
+        <div class="center" style="background-color: #7ec225; width: 100%;
+			height: auto; color: #FFF; margin-bottom: 15px">
+			Camera "Poccetti"
+		</div>
+        <div class="center" style="background-color: #ad2d2d; width: 100%;
+			height: auto; color: #FFF">
+			Appartamento "Krisar"
+		</div>
+		<p>
+			<b>Prenotate subito!</b> Godete delle nostre offerte! Cercheremo
+			di <u>considerare ogni vostra richiesta</u> aggiuntiva:
+			prenotazioni personalizzate in diretto contatto con la nostra
+			responsabile. (solo per prenotazioni per email o per telefono).
+			Per prenotare vi preghiamo di contattarci per
+			<a href="mailto:booking@il-palagetto.com?subject=Prenotazione">
+				email
+			</a>
+			 o per
+			<a href="../it/contatti.html">
+				telefono.
+			</a>
+		</p>
     </div>
 </div>
 
-
-<div class="container">
-    <div class="section black-text center">
-        <i class="material-icons medium">shopping_cart</i>
+<!--Calendar------------------------------------------------------------------->
+<div class="section no-pad-bot">
+    <div class="container">
+        <div id='calendar' class="z-depth-3 card"></div>
     </div>
+</div>
+<div class="section">
+	<div class="container center">
+		<p>
+			In alternativa, potete prenotare attraverso il sito booking.com
+			Per prenotare tramite Booking.com basta cliccare sul pulsante in
+			 basso.
+		</p>
+		<a href="http://www.booking.com/hotel/it/agriturismo-il-palagetto.html?aid=330843;lang=it">
+			<img src="http://aff.bstatic.com/images/affiliate/330843/booknow_it.gif" style="border: 0;" />
+		</a>
+	</div>
 </div>
 <?php include '../bottom.php'; ?>
