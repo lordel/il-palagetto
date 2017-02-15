@@ -143,11 +143,11 @@
         <div class="row">
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                    data-caption="Facciata" src="/img/index_imgs/salotto.JPG">
+                    data-caption="Facciata" src="/img/index_imgs/salotto.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Facciata" src="/img/index_imgs/antica.JPG">
+                data-caption="Facciata" src="/img/index_imgs/antica.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
