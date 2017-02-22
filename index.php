@@ -36,8 +36,7 @@
             </div>
             <!--Button-->
             <div class="row center">
-                <!--TODO: add link to page-->
-                <a href="#" id="download-button" class="btn-large waves-effect
+                <a href="<?php echo $folder; ?>book.php" id="download-button" class="btn-large waves-effect
                 waves-light amber accent-2">Prenota Ora!</a>
             </div>
             <br>
@@ -130,7 +129,7 @@
         </div>
     </div>
     <div class="parallax">
-        <img src="img/index_parallax/facciata2.JPG" alt="Facciata">
+        <img src="img/index_parallax/facciata2.jpg" alt="Facciata">
     </div>
 </div>
 
@@ -187,7 +186,7 @@
         </div>
     </div>
     <div class="parallax">
-        <img src="img/index_parallax/giardino.JPG" alt="Giardino">
+        <img src="img/index_parallax/giardino.jpg" alt="Giardino">
     </div>
 </div>
 
@@ -198,35 +197,35 @@
     <h4 class="center">Immagini:</h4>
     <div class="col s6 m3">
         <img class="materialboxed responsive-img z-depth-1 hoverable"
-            data-caption="Facciata" src="img/index_imgs/salotto.JPG">
+            data-caption="Facciata" src="img/index_imgs/salotto.jpg">
     </div>
     <div class="col s6 m3">
         <img class="materialboxed responsive-img z-depth-1 hoverable"
-            data-caption="Facciata" src="img/index_imgs/antica.JPG">
+            data-caption="Facciata" src="img/index_imgs/antica.jpg">
     </div>
     <div class="col s6 m3">
         <img class="materialboxed responsive-img z-depth-1 hoverable"
-            data-caption="Facciata" src="img/index_imgs/appartamento.JPG">
+            data-caption="Facciata" src="img/index_imgs/appartamento.jpg">
     </div>
     <div class="col s6 m3">
         <img class="materialboxed responsive-img z-depth-1 hoverable"
-            data-caption="Facciata" src="img/index_imgs/bellosguardo.JPG">
+            data-caption="Facciata" src="img/index_imgs/bellosguardo.jpg">
     </div>
     <div class="col s6 m3">
         <img class="materialboxed responsive-img z-depth-1 hoverable"
-            data-caption="Facciata" src="img/index_imgs/bellosguardo2.JPG">
+            data-caption="Facciata" src="img/index_imgs/bellosguardo2.jpg">
     </div>
     <div class="col s6 m3">
         <img class="materialboxed responsive-img z-depth-1 hoverable"
-            data-caption="Facciata" src="img/index_imgs/colazione.JPG">
+            data-caption="Facciata" src="img/index_imgs/colazione.jpg">
     </div>
     <div class="col s6 m3">
         <img class="materialboxed responsive-img z-depth-1 hoverable"
-            data-caption="Facciata" src="img/index_imgs/marignolle.JPG">
+            data-caption="Facciata" src="img/index_imgs/marignolle.jpg">
     </div>
     <div class="col s6 m3">
         <img class="materialboxed responsive-img z-depth-1 hoverable"
-            data-caption="Facciata" src="img/index_imgs/poccetti.JPG">
+            data-caption="Facciata" src="img/index_imgs/poccetti.jpg">
     </div>
 </div>
 <?php include 'bottom.php'; ?>
