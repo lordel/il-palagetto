@@ -13,7 +13,7 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
-<?php $title = 'Il Palagetto - Dove Siamo'; $lang = 'it'; include '../top.php'; ?>
+<?php $title = 'Il Palagetto - Dove Siamo'; $lang = 'it'; include __DIR__.'/../top.php'; ?>
 <!--TODO: fix icons in the page -->
 <div class="section no-pad-bot" id="index-banner">
   <div class="container">
@@ -135,4 +135,4 @@
       </div>
     </div>
 </div>
-<?php include '../bottom.php'; ?>
+<?php include __DIR__.'/../bottom.php'; ?>

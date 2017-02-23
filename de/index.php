@@ -13,7 +13,7 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
-<?php $title = 'Il Palagetto'; $lang = "it"; include __DIR__.'/top.php'; ?>
+<?php $title = 'Il Palagetto'; $lang = "de"; include __DIR__.'../../top.php'; ?>
 <!--TODO: check and edit all Scema information-->
 
 <!--First area of the page, with parallax and image---------------------------->
@@ -30,14 +30,14 @@
             <div class="row center">
                 <h5 class="header col s12 light">
                     <b itemprop="name">Il Palagetto</b>
-                    <span itemprop="location">è situato a 3 km dal centro di
-                        Firenze.</span>
+                    <span itemprop="location">is situated 3 km from the center
+                        of Florence.</span>
                 </h5>
             </div>
             <!--Button-->
             <div class="row center">
                 <a href="<?php echo $folder; ?>book.php" id="download-button" class="btn-large waves-effect
-                waves-light amber accent-2">Prenota Ora!</a>
+                waves-light amber accent-2">Book Now!</a>
             </div>
             <br>
             <br>
@@ -46,7 +46,7 @@
 
     <!--Parallax image-->
     <div class="parallax">
-        <img src="img/index_parallax/facciata.jpg" alt="Facciata">
+        <img src="/img/index_parallax/facciata.jpg" alt="Facciata">
     </div>
 </div>
 
@@ -129,7 +129,7 @@
         </div>
     </div>
     <div class="parallax">
-        <img src="img/index_parallax/facciata2.jpg" alt="Facciata">
+        <img src="/img/index_parallax/facciata2.jpg" alt="Facciata">
     </div>
 </div>
 
@@ -186,7 +186,7 @@
         </div>
     </div>
     <div class="parallax">
-        <img src="img/index_parallax/giardino.jpg" alt="Giardino">
+        <img src="/img/index_parallax/giardino.jpg" alt="Giardino">
     </div>
 </div>
 
@@ -197,35 +197,35 @@
     <h4 class="center">Immagini:</h4>
     <div class="col s6 m3">
         <img class="materialboxed responsive-img z-depth-1 hoverable"
-            data-caption="Facciata" src="img/index_imgs/salotto.jpg">
+            data-caption="Facciata" src="/img/index_imgs/salotto.jpg">
     </div>
     <div class="col s6 m3">
         <img class="materialboxed responsive-img z-depth-1 hoverable"
-            data-caption="Facciata" src="img/index_imgs/antica.jpg">
+            data-caption="Facciata" src="/img/index_imgs/antica.jpg">
     </div>
     <div class="col s6 m3">
         <img class="materialboxed responsive-img z-depth-1 hoverable"
-            data-caption="Facciata" src="img/index_imgs/appartamento.jpg">
+            data-caption="Facciata" src="/img/index_imgs/appartamento.jpg">
     </div>
     <div class="col s6 m3">
         <img class="materialboxed responsive-img z-depth-1 hoverable"
-            data-caption="Facciata" src="img/index_imgs/bellosguardo.jpg">
+            data-caption="Facciata" src="/img/index_imgs/bellosguardo.jpg">
     </div>
     <div class="col s6 m3">
         <img class="materialboxed responsive-img z-depth-1 hoverable"
-            data-caption="Facciata" src="img/index_imgs/bellosguardo2.jpg">
+            data-caption="Facciata" src="/img/index_imgs/bellosguardo2.jpg">
     </div>
     <div class="col s6 m3">
         <img class="materialboxed responsive-img z-depth-1 hoverable"
-            data-caption="Facciata" src="img/index_imgs/colazione.jpg">
+            data-caption="Facciata" src="/img/index_imgs/colazione.jpg">
     </div>
     <div class="col s6 m3">
         <img class="materialboxed responsive-img z-depth-1 hoverable"
-            data-caption="Facciata" src="img/index_imgs/marignolle.jpg">
+            data-caption="Facciata" src="/img/index_imgs/marignolle.jpg">
     </div>
     <div class="col s6 m3">
         <img class="materialboxed responsive-img z-depth-1 hoverable"
-            data-caption="Facciata" src="img/index_imgs/poccetti.jpg">
+            data-caption="Facciata" src="/img/index_imgs/poccetti.jpg">
     </div>
 </div>
-<?php include __DIR__.'/bottom.php'; ?>
+<?php include __DIR__.'../../bottom.php'; ?>

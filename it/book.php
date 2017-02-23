@@ -13,7 +13,7 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
-<?php $title = 'Il Palagetto - Prenota'; $lang = 'it'; include '../top.php'; ?>
+<?php $title = 'Il Palagetto - Prenota'; $lang = 'it'; include __DIR__.'/../top.php'; ?>
 <script src='/js/fullcalendar/moment.min.js'></script>
 <script src='/js/fullcalendar/fullcalendar.js'></script>
 <script type='text/javascript' src='/js/fullcalendar/gcal.js'></script>
@@ -138,4 +138,4 @@
 		</a>
 	</div>
 </div>
-<?php include '../bottom.php'; ?>
+<?php include __DIR__.'/../bottom.php'; ?>
