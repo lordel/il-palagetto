@@ -36,39 +36,54 @@
           limonaia. La camera "Bellosguardo" è arredata con un confortevole
           letto matrimoniale e un divano-letto.
         </p>
-        <!--TODO: change images and caption-->
         <div class="row">
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                    data-caption="Facciata" src="/img/index_imgs/salotto.jpg">
+                    data-caption="Camera Bellosguardo" src="/img/rooms_imgs/bellosguardo.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Facciata" src="/img/index_imgs/antica.jpg">
+                data-caption="Camera Bellosguardo" src="/img/rooms_imgs/bellosguardo2.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Facciata" src="/img/index_imgs/appartamento.jpg">
+                data-caption="Camera Bellosguardo" src="/img/rooms_imgs/bellosguardo3.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Facciata" src="/img/index_imgs/bellosguardo.jpg">
+                data-caption="Camera Bellosguardo" src="/img/rooms_imgs/bellosguardo4.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Facciata" src="/img/index_imgs/bellosguardo2.jpg">
+                data-caption="Camera Bellosguardo" src="/img/rooms_imgs/bellosguardo5.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Facciata" src="/img/index_imgs/colazione.jpg">
+                data-caption="Camera Bellosguardo" src="/img/rooms_imgs/bellosguardo6.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Facciata" src="/img/index_imgs/marignolle.jpg">
+                data-caption="Camera Bellosguardo" src="/img/rooms_imgs/bellosguardo7.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Facciata" src="/img/index_imgs/poccetti.jpg">
+                data-caption="Vista dalla Camera Bellosguardo" src="/img/rooms_imgs/bellosguardo_vista.jpg">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Vista dalla Camera Bellosguardo" src="/img/rooms_imgs/bellosguardo_vista2.jpg">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Vista dalla Camera Bellosguardo" src="/img/rooms_imgs/bellosguardo_vista3.jpg">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Bagno della Camera Bellosguardo" src="/img/rooms_imgs/bellosguardo_bagno.jpg">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Bagno della Camera Bellosguardo" src="/img/rooms_imgs/bellosguardo_bagno2.jpg">
             </div>
         </div>
         <br>
@@ -87,39 +102,42 @@
           un appartamento, in sostanza, ma senza cucina. È possibile, inoltre,
           richiedere un letto aggiuntivo.
         </p>
-        <!--TODO: change images and caption-->
         <div class="row">
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                    data-caption="Facciata" src="/img/index_imgs/salotto.jpg">
+                    data-caption="Camera Marignolle" src="/img/rooms_imgs/marignolle.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Facciata" src="/img/index_imgs/antica.jpg">
+                data-caption="Camera Marignolle" src="/img/rooms_imgs/marignolle2.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Facciata" src="/img/index_imgs/appartamento.jpg">
+                data-caption="Camera Marignolle" src="/img/rooms_imgs/marignolle3.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Facciata" src="/img/index_imgs/bellosguardo.jpg">
+                data-caption="Camera Marignolle" src="/img/rooms_imgs/marignolle4.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Facciata" src="/img/index_imgs/bellosguardo2.jpg">
+                data-caption="Vista della Camera Marignolle" src="/img/rooms_imgs/marignolle_vista.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Facciata" src="/img/index_imgs/colazione.jpg">
+                data-caption="Vista dalla Camera Marignolle" src="/img/rooms_imgs/marignolle_vista2.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Facciata" src="/img/index_imgs/marignolle.jpg">
+                data-caption="Bagno" src="/img/rooms_imgs/poccetti_marignolle_bagno.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Facciata" src="/img/index_imgs/poccetti.jpg">
+                data-caption="Bagno" src="/img/rooms_imgs/poccetti_marignolle_bagno2.jpg">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Entrata delle camere" src="/img/rooms_imgs/poccetti_marignolle.jpg">
             </div>
         </div>
         <br>
@@ -139,39 +157,38 @@
         delle sue opere più famose possono essere trovate nella galleria
         degli Ufizi.
         </p>
-        <!--TODO: change images and caption-->
         <div class="row">
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                    data-caption="Facciata" src="/img/index_imgs/salotto.jpg">
+                    data-caption="Interno Della Camera Poccetti" src="/img/rooms_imgs/poccetti.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Facciata" src="/img/index_imgs/antica.jpg">
+                data-caption="Interno Della Camera Poccetti" src="/img/rooms_imgs/poccetti2.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Facciata" src="/img/index_imgs/appartamento.jpg">
+                data-caption="Interno Della Camera Poccetti" src="/img/rooms_imgs/poccetti3.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Facciata" src="/img/index_imgs/bellosguardo.jpg">
+                data-caption="Vista dalla camera Poccetti" src="/img/rooms_imgs/poccetti_vista.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Facciata" src="/img/index_imgs/bellosguardo2.jpg">
+                data-caption="Vista dalla camera Poccetti" src="/img/rooms_imgs/poccetti_vista2.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Facciata" src="/img/index_imgs/colazione.jpg">
+                data-caption="Bagno" src="/img/rooms_imgs/poccetti_marignolle_bagno.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Facciata" src="/img/index_imgs/marignolle.jpg">
+                data-caption="Bagno" src="/img/rooms_imgs/poccetti_marignolle_bagno2.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Facciata" src="/img/index_imgs/poccetti.jpg">
+                data-caption="Entrata delle camere" src="/img/rooms_imgs/poccetti_marignolle.jpg">
             </div>
         </div>
     </div>

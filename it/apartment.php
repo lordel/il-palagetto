@@ -34,39 +34,74 @@
              si ha accesso alla terrazza con vista sul nostro magnifico oliveto.
             La cucina è dotata di tutto il necessario per cucinare.
         </p>
-        <!--TODO: change images and caption-->
         <div class="row">
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                    data-caption="Facciata" src="/img/index_imgs/salotto.jpg">
+                    data-caption="Salotto Piccolo" src="/img/apt_imgs/appartamento.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Facciata" src="/img/index_imgs/antica.jpg">
+                data-caption="Salotto Grande" src="/img/apt_imgs/appartamento2.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Facciata" src="/img/index_imgs/appartamento.jpg">
+                data-caption="Vista dal salotto" src="/img/apt_imgs/salotto_vista.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Facciata" src="/img/index_imgs/bellosguardo.jpg">
+                data-caption="Vista dal salotto" src="/img/apt_imgs/salotto_vista2.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Facciata" src="/img/index_imgs/bellosguardo2.jpg">
+                data-caption="Camera da letto" src="/img/apt_imgs/appartamento3.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Facciata" src="/img/index_imgs/colazione.jpg">
+                data-caption="Camera da letto" src="/img/apt_imgs/appartamento4.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Facciata" src="/img/index_imgs/marignolle.jpg">
+                data-caption="Camera da letto" src="/img/apt_imgs/appartamento5.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Facciata" src="/img/index_imgs/poccetti.jpg">
+                data-caption="Bagno" src="/img/apt_imgs/appartamento_bagno.jpg">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Bagno" src="/img/apt_imgs/appartamento_bagno2.jpg">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Cucina" src="/img/apt_imgs/appartamento_cucina.jpg">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Cucina" src="/img/apt_imgs/appartamento_cucina2.jpg">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Cucina" src="/img/apt_imgs/appartamento_cucina3.jpg">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Cucina" src="/img/apt_imgs/appartamento_cucina4.jpg">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Cucina" src="/img/apt_imgs/appartamento_cucina5.jpg">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Cucina" src="/img/apt_imgs/appartamento_cucina6.jpg">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Cucina" src="/img/apt_imgs/appartamento_cucina7.jpg">
+            </div>
+            <div class="col s6 m3">
+                <img class="materialboxed responsive-img z-depth-1 hoverable"
+                data-caption="Cucina" src="/img/apt_imgs/appartamento_cucina8.jpg">
             </div>
         </div>
     </div>
