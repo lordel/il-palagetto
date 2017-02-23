@@ -53,13 +53,13 @@
             </a>
         </li>
         <li>
-            <a class="btn-floating <?php echo $de_enable; ?>" href="de/index.php" hreflang="de">
+            <a class="btn-floating <?php echo $de_enable; ?>" href="/de/index.php" hreflang="de">
                 <img src="/img/lang_icons/de_icon.png" alt="DE"
                 style="width: 40px;heigth:40px; left: -30px;">
             </a>
         </li>
         <li>
-            <a class="btn-floating <?php echo $en_enable; ?>" href="en/index.php" hreflang="en">
+            <a class="btn-floating <?php echo $en_enable; ?>" href="/en/index.php" hreflang="en">
                 <img src="/img/lang_icons/en_icon.png" alt="EN"
                 style="width: 40px;heigth:40px; left: -30px;">
             </a>
