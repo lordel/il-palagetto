@@ -47,7 +47,7 @@
     </a>
     <ul>
         <li>
-            <a class="btn-floating <?php echo $it_enable; ?>">
+            <a class="btn-floating <?php echo $it_enable; ?>" href="/index.php" hreflang="it">
                 <img src="/img/lang_icons/it_icon.png" alt="IT"
                 style="width: 40px;heigth:40px; left: -30px;">
             </a>

@@ -113,7 +113,7 @@
 				email
 			</a>
 			 o per
-			<a href="../it/contatti.html">
+			<a href="/it/contacts.php">
 				telefono.
 			</a>
 		</p>

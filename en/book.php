@@ -84,37 +84,36 @@
     <div class="section black-text center">
         <i class="material-icons medium">shopping_cart</i>
 		<p>
-			Il calendario illustra i giorni <b>non</b> disponibili per le
-			prenotazioni con i seguenti colori:
+			The calendar illistartes the days which are <b>not</b>
+			 available for booking with the following colors:
 		</p>
         <div class="center" style="background-color: #536ca6; width: 100%;
 			height: auto; color: #FFF; margin-bottom: 5px">
-			Camera "Marignolle"
+			"Marignolle" bedroom
 		</div>
         <div class="center" style="background-color: #e0c240; width: 100%;
 			height: auto; color: #FFF; margin-bottom: 5px">
-			Camera "Bellosguardo"
+			"Bellosguardo" bedroom
 		</div>
         <div class="center" style="background-color: #7ec225; width: 100%;
 			height: auto; color: #FFF; margin-bottom: 15px">
-			Camera "Poccetti"
+			"Poccetti" bedroom
 		</div>
         <div class="center" style="background-color: #ad2d2d; width: 100%;
 			height: auto; color: #FFF">
-			Appartamento "Krisar"
+			"Krisar" apartment
 		</div>
 		<p>
-			<b>Prenotate subito!</b> Godete delle nostre offerte! Cercheremo
-			di <u>considerare ogni vostra richiesta</u> aggiuntiva:
-			prenotazioni personalizzate in diretto contatto con la nostra
-			responsabile. (solo per prenotazioni per email o per telefono).
-			Per prenotare vi preghiamo di contattarci per
+			<b>Make a Reservation now!</b> Enjoy our offers! We will consider
+			<u>any of your additional requests</u>: Personalized reservations
+			in direct contact with our manager. (Only for reservations through
+			email). To make a reservation please contact us through
 			<a href="mailto:booking@il-palagetto.com?subject=Prenotazione">
 				email
 			</a>
-			 o per
-			<a href="../it/contatti.html">
-				telefono.
+			 or by
+			<a href="/en/contacts.php">
+				phone.
 			</a>
 		</p>
     </div>
