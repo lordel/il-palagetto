@@ -192,40 +192,38 @@
 
 <!--Sixth area of the page, with images---------------------------------------->
 <div class="row">
-    <!--TODO: check all the captions for the images -->
-    <!--TODO: check sizing for images-->
     <h4 class="center">Immagini:</h4>
     <div class="col s6 m3">
         <img class="materialboxed responsive-img z-depth-1 hoverable"
-            data-caption="Facciata" src="img/index_imgs/salotto.jpg">
+            data-caption="Salotto" src="img/index_imgs/salotto.jpg">
     </div>
     <div class="col s6 m3">
         <img class="materialboxed responsive-img z-depth-1 hoverable"
-            data-caption="Facciata" src="img/index_imgs/antica.jpg">
+            data-caption="Giardino nel 1700" src="img/index_imgs/antica.jpg">
     </div>
     <div class="col s6 m3">
         <img class="materialboxed responsive-img z-depth-1 hoverable"
-            data-caption="Facciata" src="img/index_imgs/appartamento.jpg">
+            data-caption="Appartamento Krisar" src="img/index_imgs/appartamento.jpg">
     </div>
     <div class="col s6 m3">
         <img class="materialboxed responsive-img z-depth-1 hoverable"
-            data-caption="Facciata" src="img/index_imgs/bellosguardo.jpg">
+            data-caption="Camera Bellosguardo" src="img/index_imgs/bellosguardo.jpg">
     </div>
     <div class="col s6 m3">
         <img class="materialboxed responsive-img z-depth-1 hoverable"
-            data-caption="Facciata" src="img/index_imgs/bellosguardo2.jpg">
+            data-caption="Camera Bellosguardo" src="img/index_imgs/bellosguardo2.jpg">
     </div>
     <div class="col s6 m3">
         <img class="materialboxed responsive-img z-depth-1 hoverable"
-            data-caption="Facciata" src="img/index_imgs/colazione.jpg">
+            data-caption="Tavolo della colazione" src="img/index_imgs/colazione.jpg">
     </div>
     <div class="col s6 m3">
         <img class="materialboxed responsive-img z-depth-1 hoverable"
-            data-caption="Facciata" src="img/index_imgs/marignolle.jpg">
+            data-caption="Camera Marignolle" src="img/index_imgs/marignolle.jpg">
     </div>
     <div class="col s6 m3">
         <img class="materialboxed responsive-img z-depth-1 hoverable"
-            data-caption="Facciata" src="img/index_imgs/poccetti.jpg">
+            data-caption="Camera Poccetti" src="img/index_imgs/poccetti.jpg">
     </div>
 </div>
 <?php include __DIR__.'/bottom.php'; ?>
