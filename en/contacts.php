@@ -13,7 +13,7 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
-<?php $title = 'Il Palagetto - Contatti'; $lang = 'it'; include __DIR__.'/../top.php'; ?>
+<?php $title = 'Il Palagetto - Contatti'; $lang = 'en'; include __DIR__.'/../top.php'; ?>
 <div class="section no-pad-bot" id="index-banner">
   <div class="container">
     <h1 class="header center orange-text">
@@ -21,7 +21,7 @@
     </h1>
     <div class="row center">
         <h5 class="header col s12 light">
-            Parliamo Italiano, Tedesco, ed Inglese!
+            We speak Italian, English, and German!
         </h5>
     </div>
   </div>
@@ -32,9 +32,9 @@
         <p>
             Via Bernardino Poccetti 12
             <br>
-            50124, Firenze, Italia
+            50124, Florence, Italy
             <br>
-            Telefono: 366/2657395
+            Telephone: 0039 366-265-7395
             <br>
             Fax: 055/9900021
             <br>
@@ -47,8 +47,7 @@
         src="/img/contacts_img/manu.jpg" alt="Manuela"
         style="max-width: 300px; max-heigth: 300px">
         <p>
-            La nostra responsabile Manuela è disponibile ad aiutarvi con
-            qualsiasi necessitá
+            Our manager Manuela is available to assist you with any necessity.
         </p>
     </div>
 </div>
