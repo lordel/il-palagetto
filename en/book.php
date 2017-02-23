@@ -128,9 +128,9 @@
 <div class="section">
 	<div class="container center">
 		<p>
-			In alternativa, potete prenotare attraverso il sito booking.com
-			Per prenotare tramite Booking.com basta cliccare sul pulsante in
-			 basso.
+			We also accept reservations throught the website Booking.com. To
+			make a reservation through Booking.com simply click on the button
+			below.
 		</p>
 		<a href="http://www.booking.com/hotel/it/agriturismo-il-palagetto.html?aid=330843;lang=it">
 			<img src="http://aff.bstatic.com/images/affiliate/330843/booknow_it.gif" style="border: 0;" />
