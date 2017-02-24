@@ -13,11 +13,10 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
-<?php $title = 'Il Palagetto - Dove Siamo'; $lang = 'it'; include __DIR__.'/../top.php'; ?>
-<!--TODO: fix icons in the page -->
+<?php $title = 'Il Palagetto - Dove Siamo'; $lang = 'de'; include __DIR__.'/../top.php'; ?>
 <div class="section no-pad-bot" id="index-banner">
   <div class="container">
-    <h1 class="header center orange-text">Dove Siamo</h1>
+    <h1 class="header center orange-text">Where to find us</h1>
   </div>
 </div>
 
@@ -28,7 +27,7 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d23050.937813363576!2d11.240200292379603!3d43.765235364792254!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1babcbdd477048e4!2sIl+Palagetto!5e0!3m2!1sen!2sus!4v1407914545604" frameborder="0" style="border:0"></iframe>
     </div>
 
-    <h5 class="center">Come Raggiungerci</h5>
+    <h5 class="center">How to reach us</h5>
     <div class="row">
       <div class="col s12 m4">
         <div class="icon-block">
@@ -36,15 +35,15 @@
                 <i class="medium material-icons">
                 flight_land
             </i></h2>
-            <h5 class="center">Dall’aeroporto Amerigo Vespuci (Peretola)</h5>
-            <p class="light">È possibile prendere l’apposita navetta
+            <h5 class="center">From the Amerigo Vespuci (Peretola) airport</h5>
+            <p class="light">It is possible to take the bus
                 <a href="http://www.ataf.net/System/files/FOLDER%20VOLA%20IN%20BUS%202.pdf"
                     target="_blank">
                     “Vola in Bus”
                 </a>
-                che vi porterà alla stazione Santa Maria Novella. Dalla
-                <strong>stazione SMN</strong> potete prendere le seguenti linee
-                autobus:
+                that will bring you to the Santa Maria Novella train station.
+                From the <b>Santa Maria Novella station</b> take any of the
+                following bus lines:
                 <a href="http://www.ataf.net/it/orari-e-percorsi/orari-e-linee/line-36.aspx?idC=180&idO=0&Linea=36&LN=it-IT"
                     target="_blank">
                     36
@@ -59,13 +58,13 @@
                     target="_blank">
                     11
                 </a>
-                , ed il
+                , and
                 <a href="http://www.ataf.net/it/orari-e-percorsi/orari-e-linee/elenco-linee.aspx?idC=180&LN=it-IT"
                     target="_blank">
                     68
                 </a>
-                negli orari notturni. La fermata è quella delle "Due Strade" per
-                 tutte le linee.
+                during nighttime.
+                The stop is the "Due Strade" one for all the lines.
             </p>
         </div>
       </div>
@@ -75,16 +74,15 @@
             <h2 class="center black-text"><i class="medium material-icons">
                 flight_takeoff
             </i></h2>
-            <h5 class="center">Dall'aeroporto di Pisa</h5>
+            <h5 class="center">From the Pisa airport</h5>
             <p class="light">
-                È possibile prendere
-                <a href="http://www.terravision.eu/italiano/pisa_prezzi_orari.html"
-                    target="_blank">
-                    l’autobus
+                Take
+                <a href="http://www.terravision.eu/italiano/pisa_prezzi_orari.html" target="_blank">
+                    the bus
                 </a>
-                per Firenze che porta alla stazione Santa Maria Novella. Dalla
-                <strong>stazione SMN</strong> potete prendere le seguenti linee
-                autobus:
+                for Florence. It will bring you to the Santa Maria Novella
+                train station. From the <b>Santa Maria Novella station</b> take
+                any of the following bus lines:
                 <a href="http://www.ataf.net/it/orari-e-percorsi/orari-e-linee/line-36.aspx?idC=180&idO=0&Linea=36&LN=it-IT"
                     target="_blank">
                     36
@@ -99,13 +97,13 @@
                     target="_blank">
                     11
                 </a>
-                , ed il
+                , and
                 <a href="http://www.ataf.net/it/orari-e-percorsi/orari-e-linee/elenco-linee.aspx?idC=180&LN=it-IT"
                     target="_blank">
                     68
                 </a>
-                negli orari notturni. La fermata è quella delle "Due Strade" per
-                 tutte le linee.
+                during nighttime.
+                The stop is the "Due Strade" one for all the lines.
             </p>
         </div>
       </div>
@@ -115,21 +113,18 @@
           <h2 class="center black-text"><i class="medium material-icons">
               directions_car
           </i></h2>
-          <h5 class="center">In macchina</h5>
+          <h5 class="center">By car</h5>
           <p class="light">
-              Dalla <strong>superstrada FI-PI-LI</strong>, prendere l’uscita per
-              l’autostrada A1 (nelle vicinanze di Scandicci) in direzione Roma.
-              Seguire poi le seguenti istruzioni:
-              <br>
-              Dall’<strong>autostrada A1</strong>, così come dalla <strong>
-                  superstrada Firenze-Siena</strong>, imboccare l’uscita
-                  “Impruneta” e prendere alla rotatoria la 3. uscita in
-                  direzione di Firenze. Seguite la strada principale (Via
-                  Senese) per ca. 4km. Dopo una serie di benzinai sulla sinistra
-                   trovate un cimitero e subito dopo la nostra piccola stradina.
-                    Svoltare a sinistra e salire Via Poccetti per ca. 300m
-                    finché sulla vostra destra non troverete il nostro
-                    Agriturismo Il Palagetto.
+              From the <b>Fi-Pi-Li Highway</b>, take the A1 tall road exit
+              (near Scandicci) in the Rome direction. From the <b>A1 toll road
+              </b>, and from the <b> Firenze-Siena highway</b>, take the
+              "Impruneta" exit and take the third roundabout exit in the
+              Florence direction. Follow the main road (via Senese) for 4km.
+              After a long series of gas stations, you will find a cemetery on
+              the left. The first street on the left after the cemetery will be
+              Via Poccetti (the street where our agritourism is located).
+              After driving for about 300m on Via Poccetti you will find
+              the agritourism on your right.
             </p>
         </div>
       </div>

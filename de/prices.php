@@ -13,7 +13,7 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
-<?php $title = 'Il Palagetto - Listino'; $lang = 'it'; include __DIR__.'/../top.php'; ?>
+<?php $title = 'Il Palagetto - Listino'; $lang = 'de'; include __DIR__.'/../top.php'; ?>
 <div class="section no-pad-bot" id="index-banner">
   <div class="container">
     <h1 class="header center orange-text">Listino</h1>

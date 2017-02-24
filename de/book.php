@@ -13,7 +13,7 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
-<?php $title = 'Il Palagetto - Prenota'; $lang = 'it'; include __DIR__.'/../top.php'; ?>
+<?php $title = 'Il Palagetto - Prenota'; $lang = 'de'; include __DIR__.'/../top.php'; ?>
 <script src='/js/fullcalendar/moment.min.js'></script>
 <script src='/js/fullcalendar/fullcalendar.js'></script>
 <script type='text/javascript' src='/js/fullcalendar/gcal.js'></script>
@@ -84,37 +84,36 @@
     <div class="section black-text center">
         <i class="material-icons medium">shopping_cart</i>
 		<p>
-			Il calendario illustra i giorni <b>non</b> disponibili per le
-			prenotazioni con i seguenti colori:
+			The calendar illistartes the days which are <b>not</b>
+			 available for booking with the following colors:
 		</p>
         <div class="center" style="background-color: #536ca6; width: 100%;
 			height: auto; color: #FFF; margin-bottom: 5px">
-			Camera "Marignolle"
+			"Marignolle" bedroom
 		</div>
         <div class="center" style="background-color: #e0c240; width: 100%;
 			height: auto; color: #FFF; margin-bottom: 5px">
-			Camera "Bellosguardo"
+			"Bellosguardo" bedroom
 		</div>
         <div class="center" style="background-color: #7ec225; width: 100%;
 			height: auto; color: #FFF; margin-bottom: 15px">
-			Camera "Poccetti"
+			"Poccetti" bedroom
 		</div>
         <div class="center" style="background-color: #ad2d2d; width: 100%;
 			height: auto; color: #FFF">
-			Appartamento "Krisar"
+			"Krisar" apartment
 		</div>
 		<p>
-			<b>Prenotate subito!</b> Godete delle nostre offerte! Cercheremo
-			di <u>considerare ogni vostra richiesta</u> aggiuntiva:
-			prenotazioni personalizzate in diretto contatto con la nostra
-			responsabile. (solo per prenotazioni per email o per telefono).
-			Per prenotare vi preghiamo di contattarci per
+			<b>Make a Reservation now!</b> Enjoy our offers! We will consider
+			<u>any of your additional requests</u>: Personalized reservations
+			in direct contact with our manager. (Only for reservations through
+			email). To make a reservation please contact us through
 			<a href="mailto:booking@il-palagetto.com?subject=Prenotazione">
 				email
 			</a>
-			 o per
-			<a href="../it/contatti.html">
-				telefono.
+			 or by
+			<a href="/en/contacts.php">
+				phone.
 			</a>
 		</p>
     </div>
@@ -129,9 +128,9 @@
 <div class="section">
 	<div class="container center">
 		<p>
-			In alternativa, potete prenotare attraverso il sito booking.com
-			Per prenotare tramite Booking.com basta cliccare sul pulsante in
-			 basso.
+			We also accept reservations throught the website Booking.com. To
+			make a reservation through Booking.com simply click on the button
+			below.
 		</p>
 		<a href="http://www.booking.com/hotel/it/agriturismo-il-palagetto.html?aid=330843;lang=it">
 			<img src="http://aff.bstatic.com/images/affiliate/330843/booknow_it.gif" style="border: 0;" />

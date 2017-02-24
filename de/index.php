@@ -62,14 +62,12 @@
                         <i class="medium material-icons">home</i>
                     </h2>
                     <h5 class="center">Il Palagetto</h5>
-                    <p class="light">L’azienda agricola <b>Il Palagetto</b> è
-                        situata a circa 3 km dal centro di Firenze,
-                        nella zona sud-ovest della città. Caratterizzata da
-                        amenissime colline e ridenti faggi, sparsi di grandiosi
-                        palazzi e ville signorili, in guisa che qui ben si può
-                        dire con l’Ariosto: <i>“Veder pien di tante ville i
-                        colli, par che terren ve le germogli.”</i> (E. Repetti,
-                        Dizionario corografico della Toscana, Milano 1855).
+                    <p class="light">
+                        <b>Il Palagetto</b> farmhouse and agritourism is
+                        located 3km from the Florence center, in the
+                        south-west area of the city. The area is characterized
+                        by a copious amount of beech trees and wonderful hills,
+                        strewn with magnificent palaces and ancient mansions.
                     </p>
                 </div>
             </div>
@@ -81,15 +79,15 @@
                     <h2 class="center black-text">
                         <i class="medium material-icons">place</i>
                     </h2>
-                    <h5 class="center">Zona</h5>
-                    <p class="light">I locali sono ampi e luminosi, con vista
-                        sulla campagna circostante. La casa è, infatti,
-                        circondata dai campi, pur essendo situata in prossimità
-                        della città. <strong>Il centro storico è facilmente
-                        raggiungibile in circa 10 minuti con l’autobus</strong>.
-                         <strong>La fermata dell’autobus dista circa 200m da
-                        casa</strong>. Le auto possono essere comodamente
-                        parcheggiate davanti all’ingresso.
+                    <h5 class="center">Location</h5>
+                    <p class="light">The premises are spacious and full of light
+                        , with a magnificent view on the surrounding countryside
+                        . Fields, in fact, surround the house, although it is
+                        situated in the near proximity of the city. <b>
+                        The historical center of Florence is easily reachable
+                        in 10 minutes by bus, and the closest bus stop is only
+                        200m (218 yards) from the agritourism</b>. Cars
+                        may be easily parked in front of the main entrance.
                     </p>
                 </div>
             </div>
@@ -101,14 +99,14 @@
                     <h2 class="center black-text">
                         <i class="medium material-icons">local_florist</i>
                     </h2>
-                    <h5 class="center">I Giardini</h5>
-                    <p class="light">Al momento, per motivi logistici, <strong>è
-                        possibile accedere al giardino o al podere</strong> solo
-                         con la supervisione della nostra responsabile.
-                        <br>
-                        Perciò, <strong>gli animali degli ospiti non sono
-                        ammessi</strong>. Speriamo, tuttavia, di poter
-                        accogliere i vostri amici a quattro zampe in futuro!
+                    <h5 class="center">The Gardens</h5>
+                    <p class="light">At the moment, for logistical reasons,
+                        access to the garden or to the main farm area
+                        <b>is only allowed under our manager's
+                        supervision</b>. At the moment, <b>guests’
+                        pets are not admitted</b>. We hope, however, to be
+                        able to welcome your four-legged friends in the near
+                        future!
                     </p>
                 </div>
             </div>
@@ -122,8 +120,7 @@
     <div class="section no-pad-bot">
         <div class="container">
             <div class="row center">
-                <h5 class="header col s12 light">Azienda a <b>conduzione
-                    familiare</b>
+                <h5 class="header col s12 light">Family owned and operated
                 </h5>
             </div>
         </div>
@@ -142,7 +139,7 @@
                 <h2 class="black-text">
                     <i class="medium material-icons">announcement</i>
                 </h2>
-                <h4>Notizie</h4>
+                <h4>News</h4>
                 <!--call google docs iframe to display the news-->
                 <iframe
                     class="z-depth-2" seamless scrolling="no" frameborder="0"
@@ -154,13 +151,13 @@
                 <p>
                     <br>
                     <a target="_blank" class="btn waves-effect waves-light amber
-                        accent-2" href="#modal1">Più notizie</a>
+                        accent-2" href="#modal1">More News</a>
                 </p>
 
                 <!--Modal structure to show when trigger executes-->
                 <div id="modal1" class="modal bottom-sheet">
                     <div class="modal-content">
-                        <h4>Notizie</h4>
+                        <h4>News</h4>
                         <!--call google docs iframe to display the news, this
                         time with scrollable iframe-->
                         <iframe class="z-depth-2" frameborder="0"
@@ -179,8 +176,8 @@
     <div class="section no-pad-bot">
         <div class="container">
             <div class="row center">
-                <h5 class="header col s12 light">Accesso <strong>al giardino e
-                    al podere</strong>.
+                <h5 class="header col s12 light">
+                    Access to the <b>garden and to the main farm area</b>
                 </h5>
             </div>
         </div>
@@ -192,40 +189,38 @@
 
 <!--Sixth area of the page, with images---------------------------------------->
 <div class="row">
-    <!--TODO: check all the captions for the images -->
-    <!--TODO: check sizing for images-->
-    <h4 class="center">Immagini:</h4>
+    <h4 class="center">Images:</h4>
     <div class="col s6 m3">
         <img class="materialboxed responsive-img z-depth-1 hoverable"
-            data-caption="Facciata" src="/img/index_imgs/salotto.jpg">
+            data-caption="Living room" src="/img/index_imgs/salotto.jpg">
     </div>
     <div class="col s6 m3">
         <img class="materialboxed responsive-img z-depth-1 hoverable"
-            data-caption="Facciata" src="/img/index_imgs/antica.jpg">
+            data-caption="Picture from 1700" src="/img/index_imgs/antica.jpg">
     </div>
     <div class="col s6 m3">
         <img class="materialboxed responsive-img z-depth-1 hoverable"
-            data-caption="Facciata" src="/img/index_imgs/appartamento.jpg">
+            data-caption="Apartment" src="/img/index_imgs/appartamento.jpg">
     </div>
     <div class="col s6 m3">
         <img class="materialboxed responsive-img z-depth-1 hoverable"
-            data-caption="Facciata" src="/img/index_imgs/bellosguardo.jpg">
+            data-caption="Bellosguardo room" src="/img/index_imgs/bellosguardo.jpg">
     </div>
     <div class="col s6 m3">
         <img class="materialboxed responsive-img z-depth-1 hoverable"
-            data-caption="Facciata" src="/img/index_imgs/bellosguardo2.jpg">
+            data-caption="Bellosguardo room" src="/img/index_imgs/bellosguardo2.jpg">
     </div>
     <div class="col s6 m3">
         <img class="materialboxed responsive-img z-depth-1 hoverable"
-            data-caption="Facciata" src="/img/index_imgs/colazione.jpg">
+            data-caption="Breakfast table" src="/img/index_imgs/colazione.jpg">
     </div>
     <div class="col s6 m3">
         <img class="materialboxed responsive-img z-depth-1 hoverable"
-            data-caption="Facciata" src="/img/index_imgs/marignolle.jpg">
+            data-caption="Marignolle room" src="/img/index_imgs/marignolle.jpg">
     </div>
     <div class="col s6 m3">
         <img class="materialboxed responsive-img z-depth-1 hoverable"
-            data-caption="Facciata" src="/img/index_imgs/poccetti.jpg">
+            data-caption="Poccetti room" src="/img/index_imgs/poccetti.jpg">
     </div>
 </div>
 <?php include __DIR__.'../../bottom.php'; ?>

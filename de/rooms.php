@@ -13,13 +13,13 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
-<?php $title = 'Il Palagetto - Camere'; $lang = 'it'; include __DIR__.'/../top.php'; ?>
+<?php $title = 'Il Palagetto - Camere'; $lang = 'de'; include __DIR__.'/../top.php'; ?>
 <div class="section no-pad-bot" id="index-banner">
   <div class="container">
-    <h1 class="header center orange-text">Le Nostre Camere</h1>
+    <h1 class="header center orange-text">Our Bedrooms</h1>
     <div class="row center">
       <h5 class="header col s12 light">
-            Disponiamo di tre camere a disposizione degli ospiti.
+            We have three bedrooms available to our guests.
       </h5>
     </div>
   </div>
@@ -27,168 +27,170 @@
 
 <div class="container">
   <div class="section">
-        <h5 class="center">Camera "Bellosgurdo"</h5>
+        <h5 class="center">"Bellosgurdo" bedroom</h5>
         <p class="light" style="text-align: justify;">
-          Questa camera matrimoniale (di ca. 25mq), con bagno privato
-          adiacente, è la nostra camera più grande. Il nome della camera è
-          ispirato alla meravigliosa vista che essa offre, da un lato, sul
-          tipico paesaggio toscano e, dall'altro lato, sulla nostra piccola
-          limonaia. La camera "Bellosguardo" è arredata con un confortevole
-          letto matrimoniale e un divano-letto.
+            This master suite (25 sq. m/ 269 sq. ft), with adjacent private
+            bathroom, is our biggest bedroom. The name of the room was inspired
+            by the view it offers, on one side, on the typical Tuscan landscape
+            and, on the other side, on our small lemon grove. The room is
+            furnished with a comfortable king size bed and a full size sofa bed.
         </p>
         <div class="row">
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                    data-caption="Camera Bellosguardo" src="/img/rooms_imgs/bellosguardo.jpg">
+                    data-caption="Bellosguardo Bedroom" src="/img/rooms_imgs/bellosguardo.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Camera Bellosguardo" src="/img/rooms_imgs/bellosguardo2.jpg">
+                data-caption="Bellosguardo Bedroom" src="/img/rooms_imgs/bellosguardo2.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Camera Bellosguardo" src="/img/rooms_imgs/bellosguardo3.jpg">
+                data-caption="Bellosguardo Bedroom" src="/img/rooms_imgs/bellosguardo3.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Camera Bellosguardo" src="/img/rooms_imgs/bellosguardo4.jpg">
+                data-caption="Bellosguardo Bedroom" src="/img/rooms_imgs/bellosguardo4.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Camera Bellosguardo" src="/img/rooms_imgs/bellosguardo5.jpg">
+                data-caption="Bellosguardo Bedroom" src="/img/rooms_imgs/bellosguardo5.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Camera Bellosguardo" src="/img/rooms_imgs/bellosguardo6.jpg">
+                data-caption="Bellosguardo Bedroom" src="/img/rooms_imgs/bellosguardo6.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Camera Bellosguardo" src="/img/rooms_imgs/bellosguardo7.jpg">
+                data-caption="Bellosguardo Bedroom" src="/img/rooms_imgs/bellosguardo7.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Vista dalla Camera Bellosguardo" src="/img/rooms_imgs/bellosguardo_vista.jpg">
+                data-caption="Vista dalla Bellosguardo Bedroom" src="/img/rooms_imgs/bellosguardo_vista.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Vista dalla Camera Bellosguardo" src="/img/rooms_imgs/bellosguardo_vista2.jpg">
+                data-caption="View from Bellosguardo Bedroom" src="/img/rooms_imgs/bellosguardo_vista2.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Vista dalla Camera Bellosguardo" src="/img/rooms_imgs/bellosguardo_vista3.jpg">
+                data-caption="View from Bellosguardo Bedroom" src="/img/rooms_imgs/bellosguardo_vista3.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Bagno della Camera Bellosguardo" src="/img/rooms_imgs/bellosguardo_bagno.jpg">
+                data-caption="Bellosguardo Bedroom's bathroom" src="/img/rooms_imgs/bellosguardo_bagno.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Bagno della Camera Bellosguardo" src="/img/rooms_imgs/bellosguardo_bagno2.jpg">
+                data-caption="Bellosguardo Bedroom's bathroom" src="/img/rooms_imgs/bellosguardo_bagno2.jpg">
             </div>
         </div>
         <br>
 
-        <h5 class="center">Camera "Marignolle"</h5>
+        <h5 class="center">"Marignolle" Bedroom</h5>
         <p class="light" style="text-align: justify;">
-          Questa camera prende il nome dalle colline di “Marignolle”, dove
-          Francesco de’ Medici, figlio del famoso Cosimo de’ Medici,
-          possedeva una villa, e sulle quali le ampie finestre offrono una
-          vista mozzafiato. Questa camera matrimoniale di ca. 18mq divide il
-          bagno con la
-          camera “Poccetti”; perciò, la consigliamo particolarmente a
-          famiglie con bambini, che possono prenotare entrambe le camere per
-           l'intera famiglia. Chiudendo la porta d’accesso si ottiene uno
-          spazio privato ed intimo, separato dal resto dell’agriturismo –
-          un appartamento, in sostanza, ma senza cucina. È possibile, inoltre,
-          richiedere un letto aggiuntivo.
+            This bedroom’s name is inspired by the “marignolle” hills, where
+            Francesco de’ Medici, son of the famous Cosimo de’ Medici, owned a
+            manor, and on which the room’s big windows offer a breathtaking view
+            .
+            This bedroom (18 sq. m/ 194 sq. ft) shares the bathroom with the
+            “Poccetti” bedroom; therefore, we especially recommend it to
+            families with children, that may make a reservation for both rooms
+            for the whole family. By closing the main door one obtains a
+            private and intimate space, separated from the rest of the
+            agritourism – an apartment, basically, but without a kitchen.
+            Our guests, in addition, may request an additional twin bed for
+            this bedroom.
         </p>
         <div class="row">
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                    data-caption="Camera Marignolle" src="/img/rooms_imgs/marignolle.jpg">
+                    data-caption="Marignolle Bedroom" src="/img/rooms_imgs/marignolle.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Camera Marignolle" src="/img/rooms_imgs/marignolle2.jpg">
+                data-caption="Marignolle Bedroom" src="/img/rooms_imgs/marignolle2.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Camera Marignolle" src="/img/rooms_imgs/marignolle3.jpg">
+                data-caption="Marignolle Bedroom" src="/img/rooms_imgs/marignolle3.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Camera Marignolle" src="/img/rooms_imgs/marignolle4.jpg">
+                data-caption="Marignolle Bedroom" src="/img/rooms_imgs/marignolle4.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Vista della Camera Marignolle" src="/img/rooms_imgs/marignolle_vista.jpg">
+                data-caption="View from Marignolle Bedroom" src="/img/rooms_imgs/marignolle_vista.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Vista dalla Camera Marignolle" src="/img/rooms_imgs/marignolle_vista2.jpg">
+                data-caption="View from Marignolle Bedroom" src="/img/rooms_imgs/marignolle_vista2.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Bagno" src="/img/rooms_imgs/poccetti_marignolle_bagno.jpg">
+                data-caption="Bathroom" src="/img/rooms_imgs/poccetti_marignolle_bagno.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Bagno" src="/img/rooms_imgs/poccetti_marignolle_bagno2.jpg">
+                data-caption="Bathroom" src="/img/rooms_imgs/poccetti_marignolle_bagno2.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Entrata delle camere" src="/img/rooms_imgs/poccetti_marignolle.jpg">
+                data-caption="Bedrooms entrance" src="/img/rooms_imgs/poccetti_marignolle.jpg">
             </div>
         </div>
         <br>
 
-        <h5 class="center">Camera "Poccetti"</h5>
+        <h5 class="center">"Poccetti" bedroom</h5>
         <p class="light" style="text-align: justify;">
-         Questa camera matrimoniale di ca. 12mq divide il bagno con la
-          camera “Marignolle”; perciò, la consigliamo particolarmente a
-          famiglie con bambini, che possono prenotare entrambe le camere per
-           l'intera famiglia. Chiudendo la porta d’accesso si ottiene uno
-          spazio intimo, separato dal resto dell’agriturismo. Arredata con un
-          letto francese (largo letto singolo, 150 cm di larghezza) permette il
-          pernottamento di due persone. La camera porta lo stesso nome della via
-           in cui la nostra azienda agricola sorge: "Via Bernardino Poccetti".
-           Bernardino Poccetti era un poco conosciuto pittore del ‘500, il quale
-            era soprattutto specializzato nella pittura di facciate. Alcune
-        delle sue opere più famose possono essere trovate nella galleria
-        degli Ufizi.
+            This bedroom (12 sq. m/130 sq. ft) shares the bathroom with the
+            “Marignolle” bedroom; therefore, we especially recommend it to
+            families with children, that may make a reservation for both rooms
+            for the whole family. By closing the main door one obtains a
+            private and intimate space, separated from the rest of the
+            agritourism.
+            The room is furnished with a French bed (large bed –between a full
+            size and a queen size bed– 150cm wide), and it allows for an
+            overnight accommodation of two people.
+            The bedroom has the same name as that of the street on which our
+            farmhouse is located: “Via Bernardino Poccetti.” Bernardino
+            Poccetti was a little-known 1500 painter, who was specialized,
+            above all, in the painting of facades. Some of his most famous
+            works can be found in the Ufizi Gallery.
         </p>
         <div class="row">
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                    data-caption="Interno Della Camera Poccetti" src="/img/rooms_imgs/poccetti.jpg">
+                    data-caption="Poccetti Bedroom" src="/img/rooms_imgs/poccetti.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Interno Della Camera Poccetti" src="/img/rooms_imgs/poccetti2.jpg">
+                data-caption="Poccetti Bedroom" src="/img/rooms_imgs/poccetti2.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Interno Della Camera Poccetti" src="/img/rooms_imgs/poccetti3.jpg">
+                data-caption="Poccetti Bedroom" src="/img/rooms_imgs/poccetti3.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Vista dalla camera Poccetti" src="/img/rooms_imgs/poccetti_vista.jpg">
+                data-caption="View from Poccetti Bedroom" src="/img/rooms_imgs/poccetti_vista.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Vista dalla camera Poccetti" src="/img/rooms_imgs/poccetti_vista2.jpg">
+                data-caption="View from Poccetti Bedroom" src="/img/rooms_imgs/poccetti_vista2.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Bagno" src="/img/rooms_imgs/poccetti_marignolle_bagno.jpg">
+                data-caption="Bathroom" src="/img/rooms_imgs/poccetti_marignolle_bagno.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Bagno" src="/img/rooms_imgs/poccetti_marignolle_bagno2.jpg">
+                data-caption="Bathroom" src="/img/rooms_imgs/poccetti_marignolle_bagno2.jpg">
             </div>
             <div class="col s6 m3">
                 <img class="materialboxed responsive-img z-depth-1 hoverable"
-                data-caption="Entrata delle camere" src="/img/rooms_imgs/poccetti_marignolle.jpg">
+                data-caption="Bedrooms entrance" src="/img/rooms_imgs/poccetti_marignolle.jpg">
             </div>
         </div>
     </div>
