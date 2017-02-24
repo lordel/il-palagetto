@@ -83,5 +83,27 @@
         </table>
         <h6>**Prezzo per alloggio</h6>
     </div>
+    <div class="container">
+        <div class="section center">
+            <h5>Incluso nel Prezzo Delle Camere:</h5>
+            <ul>
+                <li>Colazione</li>
+                <li>Asciugamani e Lenzuola</li>
+                <li>Pulizie Giornaliere</li>
+                <li>WI-FI</li>
+                <li>Parcheggio Privato</li>
+                <li>Imposta di Soggiorno</li>
+            </ul>
+            <h5>Incluso nel Prezzo Dell'Appartamento:</h5>
+            <ul>
+                <li>Asciugamani e Lenzuola</li>
+                <li>Pulizie Finali</li>
+                <li>WI-FI</li>
+                <li>Parcheggio Privato</li>
+                <li>Imposta di Soggiorno</li>
+                <li>Con un'aggiunta di €12/giorno è possibile avere anche il servizio di colazione</li>
+            </ul>
+        </div>
+    </div>
 </div>
 <?php include __DIR__.'/../bottom.php'; ?>
