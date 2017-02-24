@@ -132,8 +132,8 @@
 			make a reservation through Booking.com simply click on the button
 			below.
 		</p>
-		<a href="http://www.booking.com/hotel/it/agriturismo-il-palagetto.html?aid=330843;lang=it">
-			<img src="http://aff.bstatic.com/images/affiliate/330843/booknow_it.gif" style="border: 0;" />
+		<a href="http://www.booking.com/hotel/it/agriturismo-il-palagetto.html?aid=330843;lang=en">
+			<img src="http://aff.bstatic.com/images/affiliate/330843/booknow_en.gif" style="border: 0;" />
 		</a>
 	</div>
 </div>
