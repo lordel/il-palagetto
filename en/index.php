@@ -83,7 +83,7 @@
                     <p class="light">The premises are spacious and full of light
                         , with a magnificent view on the surrounding countryside
                         . Fields, in fact, surround the house, although it is
-                        situated in the near proximity of the city. </b>
+                        situated in the near proximity of the city. <b>
                         The historical center of Florence is easily reachable
                         in 10 minutes by bus, and the closest bus stop is only
                         200m (218 yards) from the agritourism</b>. Cars
@@ -102,8 +102,8 @@
                     <h5 class="center">The Gardens</h5>
                     <p class="light">At the moment, for logistical reasons,
                         access to the garden or to the main farm area
-                        </b>is only allowed under our manager's
-                        supervision</b>. At the moment, </b>guests’
+                        <b>is only allowed under our manager's
+                        supervision</b>. At the moment, <b>guests’
                         pets are not admitted</b>. We hope, however, to be
                         able to welcome your four-legged friends in the near
                         future!
