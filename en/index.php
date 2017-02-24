@@ -189,7 +189,6 @@
 
 <!--Sixth area of the page, with images---------------------------------------->
 <div class="row">
-    <!--TODO: check all the captions for the images -->
     <h4 class="center">Images:</h4>
     <div class="col s6 m3">
         <img class="materialboxed responsive-img z-depth-1 hoverable"
