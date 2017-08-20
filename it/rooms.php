@@ -19,7 +19,7 @@
     <h1 class="header center orange-text">Le Nostre Camere</h1>
     <div class="row center">
       <h5 class="header col s12 light">
-            Disponiamo di tre camere a disposizione degli ospiti.
+            Tre camere a disposizione degli ospiti.
       </h5>
     </div>
   </div>
@@ -101,6 +101,9 @@
           spazio privato ed intimo, separato dal resto dell’agriturismo –
           un appartamento, in sostanza, ma senza cucina. È possibile, inoltre,
           richiedere un letto aggiuntivo.
+          <strong>
+            Affittasi anche solo come camera doppia.
+          </strong>
         </p>
         <div class="row">
             <div class="col s6 m3">
@@ -156,6 +159,9 @@
             era soprattutto specializzato nella pittura di facciate. Alcune
         delle sue opere più famose possono essere trovate nella galleria
         degli Ufizi.
+        <strong>
+          Affittasi anche solo come camera doppia.
+        </strong>
         </p>
         <div class="row">
             <div class="col s6 m3">

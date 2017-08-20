@@ -13,7 +13,7 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
-<?php $title = 'Il Palagetto'; $lang = "de"; include __DIR__.'../../top.php'; ?>
+<?php $title = 'Il Palagetto'; $lang = "de"; include __DIR__.'/top.php'; ?>
 <!--TODO: check and edit all Scema information-->
 
 <!--First area of the page, with parallax and image---------------------------->
@@ -25,19 +25,18 @@
         <div class="container">
             <!--Header and text on top of the parallax image-->
             <h3 class="header center light r" itemprop="legalname">
-                Azienda Agricola Il Palagetto
+                Agrarturismus Il Palagetto
             </h3>
             <div class="row center">
                 <h5 class="header col s12 light">
                     <b itemprop="name">Il Palagetto</b>
-                    <span itemprop="location">is situated 3 km from the center
-                        of Florence.</span>
+                    <span itemprop="location">nur 3km vom Zentrum von Florenz entfernt.</span>
                 </h5>
             </div>
             <!--Button-->
             <div class="row center">
                 <a href="<?php echo $folder; ?>book.php" id="download-button" class="btn-large waves-effect
-                waves-light amber accent-2">Book Now!</a>
+                waves-light amber accent-2">Jetzt buchen!</a>
             </div>
             <br>
             <br>
@@ -46,7 +45,7 @@
 
     <!--Parallax image-->
     <div class="parallax">
-        <img src="/img/index_parallax/facciata.jpg" alt="Facciata">
+        <img src="img/index_parallax/facciata.jpg" alt="Frontansicht">
     </div>
 </div>
 
@@ -62,12 +61,7 @@
                         <i class="medium material-icons">home</i>
                     </h2>
                     <h5 class="center">Il Palagetto</h5>
-                    <p class="light">
-                        <b>Il Palagetto</b> farmhouse and agritourism is
-                        located 3km from the Florence center, in the
-                        south-west area of the city. The area is characterized
-                        by a copious amount of beech trees and wonderful hills,
-                        strewn with magnificent palaces and ancient mansions.
+                    <p class="light">Der Agrarturismus <b>Il Palagetto</b> liegt 4 km süd-westlich vom Zentrum von Florenz entfernt. Das Stadviertel ist gekennzeichnet von reichlichen Buchenbäumen und wunderschönen Hügeln, die mit herrlichen Palästen und Villen übersät sind.
                     </p>
                 </div>
             </div>
@@ -79,15 +73,9 @@
                     <h2 class="center black-text">
                         <i class="medium material-icons">place</i>
                     </h2>
-                    <h5 class="center">Location</h5>
-                    <p class="light">The premises are spacious and full of light
-                        , with a magnificent view on the surrounding countryside
-                        . Fields, in fact, surround the house, although it is
-                        situated in the near proximity of the city. <b>
-                        The historical center of Florence is easily reachable
-                        in 10 minutes by bus, and the closest bus stop is only
-                        200m (218 yards) from the agritourism</b>. Cars
-                        may be easily parked in front of the main entrance.
+                    <h5 class="center">Zona</h5>
+                    <p class="light">Die Räume sind groß und hell mit Aussicht auf die schöne Landschaft. Das Haus ist, in der Tat, umgeben von Feldern obwohl die Stadt ganz in der Nähe liegt. <strong>Das Stadtzentrum ist mit dem Bus einfach in 10min zu erreichen.</strong>.
+                         <strong>Die nächste Bushaltestelle ist nur 300m vom Haus entfernt.</strong>. Autos können bequem vor dem Agrartourismus geparkt werden.
                     </p>
                 </div>
             </div>
@@ -99,14 +87,11 @@
                     <h2 class="center black-text">
                         <i class="medium material-icons">local_florist</i>
                     </h2>
-                    <h5 class="center">The Gardens</h5>
-                    <p class="light">At the moment, for logistical reasons,
-                        access to the garden or to the main farm area
-                        <b>is only allowed under our manager's
-                        supervision</b>. At the moment, <b>guests’
-                        pets are not admitted</b>. We hope, however, to be
-                        able to welcome your four-legged friends in the near
-                        future!
+                    <h5 class="center">Der Garten</h5>
+                    <p class="light">Im Augenblick ist der
+ <strong>Zugang zum Garten oder zum Olivenhain</strong> aus logistischen Gründen nur in Begleitung unserer Managerin möglich.
+                        <br>
+                        Deshalb sind, <strong>die Haustiere unserer Gäste momentan nicht zugelassen.</strong>. Wir hoffen jedoch in naher Zukunft in der Lage zu sein die vierbeinigen Freunde bei uns aufnehmen zu können!
                     </p>
                 </div>
             </div>
@@ -120,13 +105,13 @@
     <div class="section no-pad-bot">
         <div class="container">
             <div class="row center">
-                <h5 class="header col s12 light">Family owned and operated
+                <h5 class="header col s12 light"><b>Familienunternehmen</b>
                 </h5>
             </div>
         </div>
     </div>
     <div class="parallax">
-        <img src="/img/index_parallax/facciata2.jpg" alt="Facciata">
+        <img src="img/index_parallax/facciata2.jpg" alt="Frontansicht">
     </div>
 </div>
 
@@ -151,7 +136,7 @@
                 <p>
                     <br>
                     <a target="_blank" class="btn waves-effect waves-light amber
-                        accent-2" href="#modal1">More News</a>
+                        accent-2" href="#modal1">Mehr news</a>
                 </p>
 
                 <!--Modal structure to show when trigger executes-->
@@ -176,51 +161,50 @@
     <div class="section no-pad-bot">
         <div class="container">
             <div class="row center">
-                <h5 class="header col s12 light">
-                    Access to the <b>garden and to the main farm area</b>
+                <h5 class="header col s12 light">Zugang <strong>zum Garten und Olivenhain</strong>.
                 </h5>
             </div>
         </div>
     </div>
     <div class="parallax">
-        <img src="/img/index_parallax/giardino.jpg" alt="Giardino">
+        <img src="img/index_parallax/giardino.jpg" alt="Garten">
     </div>
 </div>
 
 <!--Sixth area of the page, with images---------------------------------------->
 <div class="row">
-    <h4 class="center">Images:</h4>
+    <h4 class="center">Photos:</h4>
     <div class="col s6 m3">
         <img class="materialboxed responsive-img z-depth-1 hoverable"
-            data-caption="Living room" src="/img/index_imgs/salotto.jpg">
+            data-caption="Wohnzimmer" src="img/index_imgs/salotto.jpg">
     </div>
     <div class="col s6 m3">
         <img class="materialboxed responsive-img z-depth-1 hoverable"
-            data-caption="Picture from 1700" src="/img/index_imgs/antica.jpg">
+            data-caption="Garten im Jahr 1700" src="img/index_imgs/antica.jpg">
     </div>
     <div class="col s6 m3">
         <img class="materialboxed responsive-img z-depth-1 hoverable"
-            data-caption="Apartment" src="/img/index_imgs/appartamento.jpg">
+            data-caption="Appartement Krisar" src="img/index_imgs/appartamento.jpg">
     </div>
     <div class="col s6 m3">
         <img class="materialboxed responsive-img z-depth-1 hoverable"
-            data-caption="Bellosguardo room" src="/img/index_imgs/bellosguardo.jpg">
+            data-caption="Zimmer Bellosguardo" src="img/index_imgs/bellosguardo.jpg">
     </div>
     <div class="col s6 m3">
         <img class="materialboxed responsive-img z-depth-1 hoverable"
-            data-caption="Bellosguardo room" src="/img/index_imgs/bellosguardo2.jpg">
+            data-caption="Zimmer Bellosguardo" src="img/index_imgs/bellosguardo2.jpg">
     </div>
     <div class="col s6 m3">
         <img class="materialboxed responsive-img z-depth-1 hoverable"
-            data-caption="Breakfast table" src="/img/index_imgs/colazione.jpg">
+            data-caption="Tisch im Frühstücksraum" src="img/index_imgs/colazione.jpg">
     </div>
     <div class="col s6 m3">
         <img class="materialboxed responsive-img z-depth-1 hoverable"
-            data-caption="Marignolle room" src="/img/index_imgs/marignolle.jpg">
+            data-caption="Zimmer Marignolle" src="img/index_imgs/marignolle.jpg">
     </div>
     <div class="col s6 m3">
         <img class="materialboxed responsive-img z-depth-1 hoverable"
-            data-caption="Poccetti room" src="/img/index_imgs/poccetti.jpg">
+            data-caption="Zimmer Poccetti" src="img/index_imgs/poccetti.jpg">
     </div>
 </div>
-<?php include __DIR__.'../../bottom.php'; ?>
+<?php include __DIR__.'/bottom.php'; ?>

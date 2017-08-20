@@ -13,7 +13,7 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
-<?php $title = 'Il Palagetto - Prenota'; $lang = 'de'; include __DIR__.'/../top.php'; ?>
+<?php $title = 'Il Palagetto - Jetzt buchen'; $lang = 'de'; include __DIR__.'/../top.php'; ?>
 <script src='/js/fullcalendar/moment.min.js'></script>
 <script src='/js/fullcalendar/fullcalendar.js'></script>
 <script type='text/javascript' src='/js/fullcalendar/gcal.js'></script>
@@ -80,40 +80,39 @@
 </script>
 
 <div class="container">
-	<h1 class="header center orange-text">Prenota Subito!</h1>
+	<h1 class="header center orange-text">Jetzt buchen!</h1>
     <div class="section black-text center">
         <i class="material-icons medium">shopping_cart</i>
 		<p>
-			The calendar illistartes the days which are <b>not</b>
-			 available for booking with the following colors:
+			Il calendario illustra i giorni <b>non</b> disponibili per le
+			prenotazioni con i seguenti colori:
 		</p>
         <div class="center" style="background-color: #536ca6; width: 100%;
 			height: auto; color: #FFF; margin-bottom: 5px">
-			"Marignolle" bedroom
+			Camera "Marignolle"
 		</div>
         <div class="center" style="background-color: #e0c240; width: 100%;
 			height: auto; color: #FFF; margin-bottom: 5px">
-			"Bellosguardo" bedroom
+			Camera "Bellosguardo"
 		</div>
         <div class="center" style="background-color: #7ec225; width: 100%;
 			height: auto; color: #FFF; margin-bottom: 15px">
-			"Poccetti" bedroom
+			Camera "Poccetti"
 		</div>
         <div class="center" style="background-color: #ad2d2d; width: 100%;
 			height: auto; color: #FFF">
-			"Krisar" apartment
+			Appartamento "Krisar"
 		</div>
 		<p>
-			<b>Make a Reservation now!</b> Enjoy our offers! We will consider
-			<u>any of your additional requests</u>: Personalized reservations
-			in direct contact with our manager. (Only for reservations through
-			email). To make a reservation please contact us through
+			<b>Jetzt buchen!</b> Immer neue und tolle Angebote! Wir versuchen <u>alle Ihre Anliegen zu berücksichtigen</u>:
+			Maßgeschneiderte Buchungen im direkten Kontakt mit unserer Managerin. (nur bei Buchungen via Email oder Telefon).
+			Zum Buchen hier klicken: via Email
 			<a href="mailto:booking@il-palagetto.com?subject=Prenotazione">
 				email
 			</a>
-			 or by
-			<a href="/en/contacts.php">
-				phone.
+			 Oder via Telefon
+			<a href="/it/contacts.php">
+				telefono.
 			</a>
 		</p>
     </div>
@@ -128,12 +127,11 @@
 <div class="section">
 	<div class="container center">
 		<p>
-			We also accept reservations throught the website Booking.com. To
-			make a reservation through Booking.com simply click on the button
-			below.
+			Wir sind auch auf der Webseite von booking.com.
+			Um über Booking.com zu buchen, bitte einfach hier klicken:
 		</p>
-		<a href="http://www.booking.com/hotel/it/agriturismo-il-palagetto.html?aid=330843;lang=it">
-			<img src="http://aff.bstatic.com/images/affiliate/330843/booknow_it.gif" style="border: 0;" />
+		<a href="http://www.booking.com/hotel/it/agriturismo-il-palagetto.html?aid=330843;lang=de">
+			<img src="http://aff.bstatic.com/images/affiliate/330843/booknow_de.gif" style="border: 0;" />
 		</a>
 	</div>
 </div>

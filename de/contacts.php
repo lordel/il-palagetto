@@ -13,15 +13,15 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
-<?php $title = 'Il Palagetto - Contatti'; $lang = 'de'; include __DIR__.'/../top.php'; ?>
+<?php $title = 'Il Palagetto - Kontakt'; $lang = 'de'; include __DIR__.'/../top.php'; ?>
 <div class="section no-pad-bot" id="index-banner">
   <div class="container">
     <h1 class="header center orange-text">
-        Agriturismo Il Palagetto (SSA)
+        Agrarturismus Il Palagetto (SSA)
     </h1>
     <div class="row center">
         <h5 class="header col s12 light">
-            We speak Italian, English, and German!
+            Wir sprechen italienisch, deutsch und englisch!
         </h5>
     </div>
   </div>
@@ -32,9 +32,9 @@
         <p>
             Via Bernardino Poccetti 12
             <br>
-            50124, Florence, Italy
+            50124, Florenz, Italien
             <br>
-            Telephone: 0039 366-265-7395
+            Telefon: 366/2657395
             <br>
             Fax: 055/9900021
             <br>
@@ -47,7 +47,7 @@
         src="/img/contacts_img/manu.jpg" alt="Manuela"
         style="max-width: 300px; max-heigth: 300px">
         <p>
-            Our manager Manuela is available to assist you with any necessity.
+            Unsere Managerin Manuela steht Ihnen für etwaige weiter Fragen immer zur Verfügung.
         </p>
     </div>
 </div>

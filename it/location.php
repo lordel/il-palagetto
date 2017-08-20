@@ -36,36 +36,19 @@
                 <i class="medium material-icons">
                 flight_land
             </i></h2>
-            <h5 class="center">Dall’aeroporto Amerigo Vespuci (Peretola)</h5>
-            <p class="light">È possibile prendere l’apposita navetta
+            <h5 class="center">Dall’aeroporto Amerigo Vespuci (Peretola) o Dall'aeroporto di Pisa</h5>
+            <p class="light">Dall'aeroporto di Peretola è possibile prendere l’apposita navetta
                 <a href="http://www.ataf.net/System/files/FOLDER%20VOLA%20IN%20BUS%202.pdf"
                     target="_blank">
                     “Vola in Bus”
                 </a>
-                che vi porterà alla stazione Santa Maria Novella. Dalla
-                <strong>stazione SMN</strong> potete prendere le seguenti linee
-                autobus:
-                <a href="http://www.ataf.net/it/orari-e-percorsi/orari-e-linee/line-36.aspx?idC=180&idO=0&Linea=36&LN=it-IT"
+                che vi porterà alla stazione Santa Maria Novella.
+                Da Pisa è possibile prendere
+                <a href="http://www.terravision.eu/italiano/pisa_prezzi_orari.html"
                     target="_blank">
-                    36
+                    l’autobus
                 </a>
-                /
-                <a href="http://www.ataf.net/it/orari-e-percorsi/orari-e-linee/line-37.aspx?idC=180&idO=0&Linea=37&LN=it-IT"
-                    target="_blank">
-                    37
-                </a>
-                /
-                <a href="http://www.ataf.net/it/orari-e-percorsi/orari-e-linee/line-11.aspx?idC=180&idO=0&Linea=11&LN=it-IT"
-                    target="_blank">
-                    11
-                </a>
-                , ed il
-                <a href="http://www.ataf.net/it/orari-e-percorsi/orari-e-linee/elenco-linee.aspx?idC=180&LN=it-IT"
-                    target="_blank">
-                    68
-                </a>
-                negli orari notturni. La fermata è quella delle "Due Strade" per
-                 tutte le linee.
+                per Firenze che porta alla stazione Santa Maria Novella.
             </p>
         </div>
       </div>
@@ -75,15 +58,10 @@
             <h2 class="center black-text"><i class="medium material-icons">
                 flight_takeoff
             </i></h2>
-            <h5 class="center">Dall'aeroporto di Pisa</h5>
+            <h5 class="center">Dalla Stazione Santa Maria Novella/h5>
             <p class="light">
-                È possibile prendere
-                <a href="http://www.terravision.eu/italiano/pisa_prezzi_orari.html"
-                    target="_blank">
-                    l’autobus
-                </a>
-                per Firenze che porta alla stazione Santa Maria Novella. Dalla
-                <strong>stazione SMN</strong> potete prendere le seguenti linee
+                Dalla
+                stazione SMN potete prendere le seguenti linee
                 autobus:
                 <a href="http://www.ataf.net/it/orari-e-percorsi/orari-e-linee/line-36.aspx?idC=180&idO=0&Linea=36&LN=it-IT"
                     target="_blank">
@@ -99,12 +77,7 @@
                     target="_blank">
                     11
                 </a>
-                , ed il
-                <a href="http://www.ataf.net/it/orari-e-percorsi/orari-e-linee/elenco-linee.aspx?idC=180&LN=it-IT"
-                    target="_blank">
-                    68
-                </a>
-                negli orari notturni. La fermata è quella delle "Due Strade" per
+                . La fermata è quella delle "Due Strade 02" per
                  tutte le linee.
             </p>
         </div>
@@ -127,8 +100,8 @@
                   direzione di Firenze. Seguite la strada principale (Via
                   Senese) per ca. 4km. Dopo una serie di benzinai sulla sinistra
                    trovate un cimitero e subito dopo la nostra piccola stradina.
-                    Svoltare a sinistra e salire Via Poccetti per ca. 300m
-                    finché sulla vostra destra non troverete il nostro
+                    Svoltare a sinistra e salire Via Poccetti fino a raggiungere
+                     il numero 12. Sulla vostra destra troverete il nostro
                     Agriturismo Il Palagetto.
             </p>
         </div>

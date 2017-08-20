@@ -32,32 +32,19 @@
             </thead>
             <tbody>
               <tr>
-                <td>€30*</td>
-                <td>€40*</td>
-              </tr>
-            </tbody>
-        </table>
-
-        <h5>Prezzi Camere Per Bambini</h5>
-        <table bgcolor="#FFFFEE" class="responsive-table z-depth-2">
-            <thead>
-              <tr>
-                  <th>0 - 6 Anni</th>
-                  <th>7 - 12 Anni</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>€0*</td>
-                <td>€25*</td>
+                <td>€44*</td>
+                <td>€52*</td>
               </tr>
             </tbody>
         </table>
 
         <h6>
-            *Prezzo a persona per notte. I bambini (fino a sei anni) che
-            dormono in camera con i genitori non pagano.
+            *Prezzo a persona per notte.
         </h6>
+
+        <p>
+          Prezzi speciali per bambini. Contattarci per informazioni.
+        </p>
 
         <h5>Prezzi Appartamento Krisar</h5>
         <table bgcolor="#FFFFEE" class="responsive-table z-depth-2">
@@ -91,7 +78,6 @@
                 <li>Asciugamani e Lenzuola</li>
                 <li>Pulizie Giornaliere</li>
                 <li>WI-FI</li>
-                <li>Parcheggio Privato</li>
                 <li>Imposta di Soggiorno</li>
             </ul>
             <h5>Incluso nel Prezzo Dell'Appartamento:</h5>
@@ -99,9 +85,8 @@
                 <li>Asciugamani e Lenzuola</li>
                 <li>Pulizie Finali</li>
                 <li>WI-FI</li>
-                <li>Parcheggio Privato</li>
                 <li>Imposta di Soggiorno</li>
-                <li>Con un'aggiunta di €12/giorno è possibile avere anche il servizio di colazione</li>
+                <li>Con un'aggiunta di €6 a testa è possibile avere anche il servizio di colazione</li>
             </ul>
         </div>
     </div>

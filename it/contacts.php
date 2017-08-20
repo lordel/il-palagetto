@@ -13,7 +13,7 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
-<?php $title = 'Il Palagetto - Contatti'; $lang = 'it'; include __DIR__.'/../top.php'; ?>
+<?php $title = 'Il Palagetto - Prenota/Contatti'; $lang = 'it'; include __DIR__.'/../top.php'; ?>
 <div class="section no-pad-bot" id="index-banner">
   <div class="container">
     <h1 class="header center orange-text">
@@ -50,6 +50,34 @@
             La nostra responsabile Manuela è disponibile ad aiutarvi con
             qualsiasi necessitá
         </p>
+        <h1>Prenotate subito!</h1>
+        <p>
+    			Godete delle nostre offerte! Cercheremo
+    			di <u>considerare ogni vostra richiesta</u> aggiuntiva:
+    			prenotazioni personalizzate in diretto contatto con la nostra
+    			responsabile. (solo per prenotazioni per email o per telefono).
+    			Per prenotare vi preghiamo di contattarci per
+    			<a href="mailto:booking@il-palagetto.com?subject=Prenotazione">
+    				email
+    			</a>
+    			 o per
+    			<a href="/it/contacts.php">
+    				telefono.
+    			</a>
+    		</p>
+    </div>
+    <div class="section">
+    	<div class="container center">
+    		<p>
+    			In alternativa, potete prenotare attraverso il sito booking.com*
+    			Per prenotare tramite Booking.com basta cliccare sul pulsante in
+    			 basso.
+    		</p>
+    		<a href="http://www.booking.com/hotel/it/agriturismo-il-palagetto.html?aid=330843;lang=it">
+    			<img src="http://aff.bstatic.com/images/affiliate/330843/booknow_it.gif" style="border: 0;" />
+    		</a>
+    	</div>
+      <h6>*I prezzi possono variare.</h6>
     </div>
 </div>
 <?php include __DIR__.'/../bottom.php'; ?>
